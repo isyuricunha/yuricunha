@@ -4,7 +4,7 @@ title: Yuri Cunha
 logo: # You can add own logo. For example '/images/logo.png'.
 description: Yuri Cunha Personal Website
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://127.0.0.1:4000/" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://yuricunha.vercel.app/" # the base hostname & protocol for your site, e.g. http://example.com
 color_scheme: dark # You can choose three modes auto, light, and dark. By default, the auto mode is set, which means the user can choose the light or dark mode themself.
 
 
@@ -36,7 +36,7 @@ hero:
 
 #-------------------------------
 # Newsletter
-mailchimp: 'enable'  # To enable the mailchimp form, use the value 'enable'. To disable the form, leave the field blank.
+mailchimp: ''  # To enable the mailchimp form, use the value 'enable'. To disable the form, leave the field blank.
 mailchimp__identifier: frnla.us6.list-manage.com/subscribe/post?u=6314d69a3f315af7ce3fb00a0&amp;id=3038727cc3 # Add your MailChimp form identifier. For example - frnla.us6.list-manage.com/subscribe/post?u=6314d69a3f315af7ce3fb00a0&amp;id=3038727cc3
 mailchimp__input__text: Subscribe here
 mailchimp__button__text: Get a new tip
@@ -86,7 +86,7 @@ disqus-identifier:  # Add your shortname for Disqus Comment. For example demo-me
 
 #-------------------------------
 # Google Analytics
-google-analytics: # Add your GA Tracking Id
+google-analytics: G-N7PH6990PD # Add your GA Tracking Id
 
 
 #-------------------------------
