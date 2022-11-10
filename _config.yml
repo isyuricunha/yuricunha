@@ -112,17 +112,6 @@ defaults:
 
 include:
   - _pages
-  - _posts
-  - _layouts
-  - _includes
-  - _sass
-  - _data
-  - _assets
-  - _config.yml
-  - _config.dev.yml
-  - _config.prod.yml
-  - _config.test.yml
-  - _config.yml
 
 sass:
   sass_dir: _sass
