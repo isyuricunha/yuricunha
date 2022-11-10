@@ -4,6 +4,7 @@ title:  Coisas que eu gostaria que tivessem me dito quando entrei na faculdade d
 description: TI é tão vasto quanto medicina.
 date:   2022-08-12 15:01:35 +0300
 image:  '/images/02.jpg'
+permalink: /teste
 video_embed: 
 tags:   [Faculdade, Estudo, Aprendizado]
 ---
