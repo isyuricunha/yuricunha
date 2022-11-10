@@ -5,6 +5,8 @@ description: TI é tão vasto quanto medicina.
 date:   2022-08-12 15:01:35 +0300
 image:  '/images/02.jpg'
 permalink: /teste
+newest_tags:   [include]
+include_flag: 'exclude_from_homepage'
 video_embed: 
 tags:   [Faculdade, Estudo, Aprendizado]
 ---
