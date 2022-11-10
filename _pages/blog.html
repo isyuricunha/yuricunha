@@ -1,0 +1,19 @@
+---
+layout: default
+title:  Blog
+permalink: /blog/
+image: '/images/01.jpg'
+---
+
+<div class="container">
+  <div class="row animate">
+    {% assign sorted_posts = site.posts | sort:"num" %}
+    {% for post in sorted_posts %}
+      {% if post.newest_tags contains 'include' %}
+        {% include article.html %}
+      {% endif %}
+    {% endfor %}
+  </div>
+</div>
+
+{% include pagination.html %}
