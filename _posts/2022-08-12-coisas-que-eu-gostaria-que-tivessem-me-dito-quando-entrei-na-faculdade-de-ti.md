@@ -1,14 +1,13 @@
 ---
 layout: post
-title:  Coisas que eu gostaria que tivessem me dito quando entrei na faculdade de TI
-description: TI é tão vasto quanto medicina.
-date:   2022-08-12 15:01:35 +0300
-image:  '/images/02.jpg'
-permalink: /blog/coisas-que-eu-gostaria-que-tivessem-me-dito-quando-entrei-na-faculdade-de-ti
-newest_tags:   [include]
+title: Unique Sounds of San Francisco
+description: 
+date:   2022-08-25 15:01:35 +0300
+image: '/images/posts/unique_sounds/fog-horns-chart-2.png'
 include_flag: 'exclude_from_homepage'
-video_embed: 
-tags:   [Faculdade, Estudo, Aprendizado]
+num: 1
+newest_tags:   [include]
+tags:   []
 ---
 
 
