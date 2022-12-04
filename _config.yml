@@ -16,11 +16,11 @@ author:
   author__avatar: '/images/01-1.jpg'
 
 social:
-- {icon: "ion-logo-twitter", link: "https://twitter.com"}
-- {icon: "ion-logo-facebook", link: "https://facebook.com"}
-- {icon: "ion-logo-instagram", link: "https://instagram.com"}
-- {icon: "ion-logo-pinterest", link: "https://pinterest.com"}
-- {icon: "ion-logo-youtube", link: "https://youtube.com"}
+- {icon: "ion-logo-twitter", link: "https://twitter.com/isyuricunha"}
+- {icon: "ion-logo-facebook", link: "https://facebook.com/isyuricunha"}
+- {icon: "ion-logo-instagram", link: "https://instagram.com/isyuricunha"}
+- {icon: "ion-logo-pinterest", link: "https://pinterest.com/isyuricunha"}
+- {icon: "ion-logo-youtube", link: "https://youtube.com/isyuricunha"}
 
 # Example of adding a new link to the footer - {icon: "ion-logo-dribbble", link: "https://dribbble.com"}
 # Other icons can be found at https://ionicons.com/v4/
