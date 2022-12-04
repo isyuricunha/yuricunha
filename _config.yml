@@ -1,6 +1,6 @@
 #-------------------------------
 # Site Settings
-title: Mike
+title: Yuri
 logo: # You can add own logo. For example '/images/logo.png'.
 description: Menca personal blogging theme for Jekyll
 baseurl: "" # the subpath of your site, e.g. /blog
@@ -11,7 +11,7 @@ color_scheme: dark # You can choose three modes auto, light, and dark. By defaul
 #-------------------------------
 # Author Settings
 author:
-  author__name: Mike Aarts
+  author__name: Yuri Cunha
   author__bio: Bio goes here.
   author__avatar: '/images/01-1.jpg'
 
@@ -29,7 +29,7 @@ social:
 #-------------------------------
 # Hero Settings
 hero:
-  hero__title: Hey, I’m Mike
+  hero__title: Hey, I’m Yuri
   hero__description: Bio goes here..
   hero__image: '/images/01.jpg'
 
