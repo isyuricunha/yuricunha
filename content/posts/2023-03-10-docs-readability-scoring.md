@@ -1,6 +1,6 @@
 ---
 title: Docs Readability Scoring
-author: Dachary Carey
+author: Yuri Cunha
 layout: post
 description: In which I automate readability scoring for documentation.
 date: 2023-03-10 17:00:00 -0500
@@ -11,9 +11,9 @@ tags: [Coding, Writing]
 
 Experienced documentation writers know that grammar isn't the only important aspect of documentation. Readability is a huge part of what makes documentation good. Readable documentation:
 
-* Is scannable, with lots of clear sections and bullet points.
-* Has short, simple sentences. 
-* Uses common vocabulary and avoids jargon.
+- Is scannable, with lots of clear sections and bullet points.
+- Has short, simple sentences.
+- Uses common vocabulary and avoids jargon.
 
 ## Why Readability is Important
 
@@ -21,9 +21,9 @@ The [Nielsen Norman Group advises writers target an 8th grade reading level](htt
 
 Who needs simple documentation?
 
-* People who are in a hurry.
-* People who speak English as a second language.
-* Teams who intend to translate documentation into other languages.
+- People who are in a hurry.
+- People who speak English as a second language.
+- Teams who intend to translate documentation into other languages.
 
 Even if you aren't targeting an international audience, simple documentation benefits everyone. But it might surprise you to know that the average American has a [7th to 8th grade reading level](https://literacyproj.org). [Some sources](https://en.wikipedia.org/wiki/Literacy_in_the_United_States) estimate it's even lower than that. So if you write to an 8th grade level, you're writing for the average American.
 
@@ -41,26 +41,26 @@ I added [a command](https://github.com/cbush/docdoctor/blob/main/src/commands/re
 
 ### Scoring Text for Readability
 
-After converting the rST to plain text, with a few minor tweaks, we can score it for readability. We're using a Python library, [textstat](https://pypi.org/project/textstat/), to do the scoring. This library lets you select from 16 readability heuristics. I've chosen two: [Flesch-Kincaid Grade Level](https://en.wikipedia.org/wiki/Flesch–Kincaid_readability_tests#Flesch–Kincaid_grade_level) and [Flesch Reading Ease](https://en.wikipedia.org/wiki/Flesch–Kincaid_readability_tests#Flesch_reading_ease). 
+After converting the rST to plain text, with a few minor tweaks, we can score it for readability. We're using a Python library, [textstat](https://pypi.org/project/textstat/), to do the scoring. This library lets you select from 16 readability heuristics. I've chosen two: [Flesch-Kincaid Grade Level](https://en.wikipedia.org/wiki/Flesch–Kincaid_readability_tests#Flesch–Kincaid_grade_level) and [Flesch Reading Ease](https://en.wikipedia.org/wiki/Flesch–Kincaid_readability_tests#Flesch_reading_ease).
 
 The automation that I've set up applies these heuristics to every file in a documentation PR. This gives us readability scores for everything we touch while we work.
 
 ### Automating Readability Scoring
 
-With these tools, I can automate scoring our documentation PRs for readability. I've set up two GitHub workflows that automate this process. 
+With these tools, I can automate scoring our documentation PRs for readability. I've set up two GitHub workflows that automate this process.
 
 The [first workflow](https://github.com/mongodb/docs-realm/blob/master/.github/workflows/readability.yml):
 
-* Checks out files that we've touched in the documentation PR.
-* Uses docdoctor to convert the rST to plain text.
-* Uses textstat to score that plain text for readability.
+- Checks out files that we've touched in the documentation PR.
+- Uses docdoctor to convert the rST to plain text.
+- Uses textstat to score that plain text for readability.
 
 It stores the output of our textstat scoring script as a workflow artifact.
 
 The [second workflow](https://github.com/mongodb/docs-realm/blob/master/.github/workflows/readability-comment.yml):
 
-* Gets the workflow artifact that has the readability scores.
-* Posts it as a comment on the pull request.
+- Gets the workflow artifact that has the readability scores.
+- Posts it as a comment on the pull request.
 
 The second workflow is separate for security reasons. If the first workflow actually posted the comment, it could expose the GitHub token to bad actors. (Don't ask me how I know this.)
 

@@ -1,14 +1,14 @@
 ---
-title: 'Docs-as-code workflow: the missing link; a collaboration tool'
-author: Dachary Carey
+title: "Docs-as-code workflow: the missing link; a collaboration tool"
+author: Yuri Cunha
 layout: post
 description: In which I wax poetic about the value of previewing a docs-as-code site.
 date: 2020-05-23 15:01:35 +0300
 url: /2020/05/23/docs-as-code-workflow-the-missing-link-a-collaboration-tool/
 image: /images/tugboat-hero.jpg
 tags: [Writing]
-
 ---
+
 [Docs as code][1] is a technical documentation movement to use the same tools that developers use in the documentation workflow. It's a great way to enable collaboration with developers, and now that I've been doing it for more than a year, I can't imagine writing documentation for developers, with developers in any other toolchain. But one thing is missing from most docs-as-code workflows: a collaboration tool to easily share the work and solicit feedback.
 
 ## Why do you need a collaboration tool in a docs-as-code workflow?
@@ -25,7 +25,7 @@ What you need is a collaboration tool that doesn't require the reviewer to have 
 
 ## Enter Tugboat, the missing link
 
-So how do you solve this problem? There are a number of ways you might approach it, but I think the best case scenario is to add a continuous integration tool that can build your site before you push the changes live. Unfortunately, for many technical writers, setting up that tech stack is a bit beyond us. 
+So how do you solve this problem? There are a number of ways you might approach it, but I think the best case scenario is to add a continuous integration tool that can build your site before you push the changes live. Unfortunately, for many technical writers, setting up that tech stack is a bit beyond us.
 
 Setting up a CI solution requires adding services, having access to servers where the site can be deployed, etc. The organization may not have the appetite for that kind of infrastructure investment just for documentation. Even if it does, you'll need a developer to set it up and maintain it. But even if you can get a developer's time to set it up, that's the kind of project people wander away from, and when it inevitably breaks at some future point, good luck getting a developer's time again to debug it.
 
@@ -51,7 +51,7 @@ Or you can configure Tugboat to post the website preview right to your pull requ
 
 ![Screenshot of Tugboat deployment links on a GitHub pull request](/images/view-deployments-in-github-1200x822.png)
 
-At this point, anyone with access to the git PR can click on the Tugboat link and view a live preview of the site. You could also copy the URL and send it to any non-technical stakeholder who wants to review the site - be it a product manager or a member of the leadership team. Anyone you send the link to can view the site, with no need to have a git or Tugboat account. For a docs-as-code project, developers who are reviewing your PRs can do it in Tugboat, without checking out the PRs and building them locally. 
+At this point, anyone with access to the git PR can click on the Tugboat link and view a live preview of the site. You could also copy the URL and send it to any non-technical stakeholder who wants to review the site - be it a product manager or a member of the leadership team. Anyone you send the link to can view the site, with no need to have a git or Tugboat account. For a docs-as-code project, developers who are reviewing your PRs can do it in Tugboat, without checking out the PRs and building them locally.
 
 This is the Tugboat preview for this site (just an example site for testing):
 
@@ -65,13 +65,13 @@ With this collaboration tool in my pocket, I can have anyone I want review chang
 
 Even cooler is the ability to conduct simultaneous reviews easily. Say, for example, my company has a new user admin feature coming, so I update the docs and make a PR. A Tugboat preview gets generated, and I can share it with the product manager and/or developers responsible for that feature for review.
 
-Separately, there's a new tool being added to my company's app. As long as I'm using a proper branching workflow and branching from master, I can create those docs independent of the user admin feature above. Make a PR for that documentation, and a different Tugboat preview gets generated. I can send those docs to a different product manager and development team for review. That review can be happening simultaneous to the one above, and whichever review is completed first can get merged into the documentation. 
+Separately, there's a new tool being added to my company's app. As long as I'm using a proper branching workflow and branching from master, I can create those docs independent of the user admin feature above. Make a PR for that documentation, and a different Tugboat preview gets generated. I can send those docs to a different product manager and development team for review. That review can be happening simultaneous to the one above, and whichever review is completed first can get merged into the documentation.
 
 I don't have to worry about the user admin review being done, so I can then get the documentation for the new tool loaded to the staging server for sharing with relevant stakeholders, etc. And if the documentation for the new tool gets approved first, I can merge that PR and the Tugboat preview goes away, while the link to the user admin documentation change persists.
 
 I've been super happy with having this tool in my technical documentation workflow, and I wish I'd had it at prior jobs. Now that I do, I can't imagine working in a docs-as-code workflow without it.
 
- [1]: https://www.writethedocs.org/guide/docs-as-code/
- [2]: https://www.tugboat.qa/
- [3]: https://docs.tugboat.qa/starter-configs/
- [4]: https://www.tugboat.qa/support/
+[1]: https://www.writethedocs.org/guide/docs-as-code/
+[2]: https://www.tugboat.qa/
+[3]: https://docs.tugboat.qa/starter-configs/
+[4]: https://www.tugboat.qa/support/

@@ -1,14 +1,14 @@
 ---
 title: Looking for a new (meaningful) writing gig
-author: Dachary Carey
+author: Yuri Cunha
 layout: post
 description: In which I part ways with a long-term client and want to do something meaningful.
 date: 2018-08-28 15:01:35 +0300
 url: /2018/08/28/looking-for-a-new-meaningful-writing-gig/
 image: /images/looking-for-meaning-hero.jpg
 tags: [Business, Personal]
-
 ---
+
 At the beginning of August, I said farewell to the company where I've been contracting for the past two years. I worked with a great team, but I'd gotten burned out and it was time to take a break and then look at what I want to do next.
 
 My plan had been to focus on publishing and doing my own writing full-time whenever I left that contract gig, but... I haven't built up the publishing to the point where it can pay all the bills yet, and frankly, it feels a little frivolous to me at this moment in time.
@@ -25,6 +25,6 @@ I'm currently looking around to see what's out there. But if you're reading this
 
 Wish me luck!
 
- [1]: https://80000hours.org/job-board/
- [2]: https://80000hours.org/problem-profiles/
- [3]: https://dacharycarey.com/contact/
+[1]: https://80000hours.org/job-board/
+[2]: https://80000hours.org/problem-profiles/
+[3]: https://dacharycarey.com/contact/

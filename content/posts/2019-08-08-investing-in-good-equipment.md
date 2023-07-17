@@ -1,13 +1,12 @@
 ---
 title: Investing in good equipment
-author: Dachary Carey
+author: Yuri Cunha
 layout: post
 description: In which I recognize how important it is to have good equipment, and do something about it.
 date: 2019-08-08 15:01:35 +0300
 url: /2019/08/08/investing-in-good-equipment/
 image: /images/investing-in-good-equipment-hero.jpg
 tags: [Business, Coding, Lifestyle, Personal, Writing]
-
 ---
 
 ![Image of a desk with two laptops and a monitor labeled "Before" above an image of the same desk with an iMac and a monitor labeled "After"](/images/new-equipment_before_after-1083x1200.jpg)
@@ -18,9 +17,9 @@ Fast forward to 2019. In the past few years, I've started doing [docs-as-code][1
 
 Then, this spring, I dove into Swift. When I decided to learn to code so I could write an app I want to use, I took a gradual approach. I worked through some Swift Playgrounds stuff on my iPad, and then read a book or two about coding and Swift. I brainstormed the data structure for my app, and made UML diagrams. Eventually, I took a couple of online classes on Xcode and Swift.
 
-Between my technical writing work and my app development, my 13" laptop + external monitor had begun to feel cramped. What had once felt sufficient for doing marketing writing in a single window, with maybe a reference window alongside, had now become a nightmare of overlapping windows and constant swapping. I wanted more screen real estate so I could have multiple windows open for reference and working simultaneously, and I wanted those windows to be bigger. 
+Between my technical writing work and my app development, my 13" laptop + external monitor had begun to feel cramped. What had once felt sufficient for doing marketing writing in a single window, with maybe a reference window alongside, had now become a nightmare of overlapping windows and constant swapping. I wanted more screen real estate so I could have multiple windows open for reference and working simultaneously, and I wanted those windows to be bigger.
 
-But mostly, I wanted Xcode to not just laugh at me when I attempted to compile things, or - even worse - not have Xcode sputter when I attempt to Auto Run a Playground so I can see how things are working as I code. 
+But mostly, I wanted Xcode to not just laugh at me when I attempted to compile things, or - even worse - not have Xcode sputter when I attempt to Auto Run a Playground so I can see how things are working as I code.
 
 One of the classes I took involved working in Playground files on my machine as I followed the instructor's videos. I had to keep pausing the instruction video to wait for my local Playground to respond to my inputs, while the instructor did the exact same thing in the video and then happily chugged along with his much more powerful machine.
 
@@ -28,15 +27,15 @@ It was clear. Xcode was a memory/processor hog, and I had too little of both. I'
 
 (Don't get me wrong - that little 13" mid-2014 MBP did well to get me into mid-2019 without a hitch, and is still chugging along happily with less intensive tasks; it's my "couch computer" now.)
 
-I looked around at the options. I _could_ get a newer, more powerful MacBook Pro. But I'd still have limited screen real estate, and that was chafing more and more. Also, I essentially never use my laptop as a laptop these days; I work exclusively at my desk, with my Kinesis Advantage2 keyboard and my external monitor setup. Could it be time to go _back_ to a desktop, when I still remembered fondly the liberating joy of going from a PC tower to my first laptop back in the mid-2000s? It seemed like such a step back, it was hard to fathom. 
+I looked around at the options. I _could_ get a newer, more powerful MacBook Pro. But I'd still have limited screen real estate, and that was chafing more and more. Also, I essentially never use my laptop as a laptop these days; I work exclusively at my desk, with my Kinesis Advantage2 keyboard and my external monitor setup. Could it be time to go _back_ to a desktop, when I still remembered fondly the liberating joy of going from a PC tower to my first laptop back in the mid-2000s? It seemed like such a step back, it was hard to fathom.
 
 But the more I thought about it, the more it seemed to make sense to get a desktop again. I never use the laptop as a laptop. I could get better CPU/more RAM significantly cheaper with a desktop. And then I could have another big monitor, giving me the screen real estate I've been craving.
 
-I decided to go back to a desktop. I clearly didn't need a powerhouse like the newly-announced Mac Pro, so I wasn't going that route. I looked at the Mac mini; a capable little machine. I looked at the iMac, with its beautiful monitor. I looked at the iMac Pro - nope, that's more than I need. 
+I decided to go back to a desktop. I clearly didn't need a powerhouse like the newly-announced Mac Pro, so I wasn't going that route. I looked at the Mac mini; a capable little machine. I looked at the iMac, with its beautiful monitor. I looked at the iMac Pro - nope, that's more than I need.
 
 Waffle. Research external monitors. Waffle. Spec out both machines to a level that would support my current needs, plus some future-proofing. Cringe at the price tag. Waffle some more. Deal with some stupid imposter BS because my husband is the experienced web dev, and how could _I_ justify spending that much on a setup for my less-intensive work + dabbling in Swift development; an entirely self-driven project that may never make me a penny?
 
-Eventually, I drove the hour to the nearest Apple store to see an iMac in person. And then I sat myself down and gave myself a pep talk about giving myself permission to invest in my skill development. Maybe I'll get more heavily into coding as a tech writer. Maybe I'll love developing in Swift so much that I'll pivot to Mac app development. Or maybe I'll write this app, but then decide that coding isn't something I want to pursue beyond that. I won't know unless I give myself the room to develop those skills and see what happens, but it is 100% OK to invest in my career potential. 
+Eventually, I drove the hour to the nearest Apple store to see an iMac in person. And then I sat myself down and gave myself a pep talk about giving myself permission to invest in my skill development. Maybe I'll get more heavily into coding as a tech writer. Maybe I'll love developing in Swift so much that I'll pivot to Mac app development. Or maybe I'll write this app, but then decide that coding isn't something I want to pursue beyond that. I won't know unless I give myself the room to develop those skills and see what happens, but it is 100% OK to invest in my career potential.
 
 So I pulled the trigger, and got a beautiful 27" iMac. And it isn't the entry-level iMac, either; it's closer to the top tier, to give myself room for growth.
 
@@ -48,4 +47,4 @@ Yes, I am extremely privileged to be able to spend the money on an Apple device;
 
 I am very much enjoying my new setup.
 
- [1]: https://www.writethedocs.org/guide/docs-as-code/
+[1]: https://www.writethedocs.org/guide/docs-as-code/

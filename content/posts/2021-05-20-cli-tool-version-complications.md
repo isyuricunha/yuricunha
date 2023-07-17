@@ -1,19 +1,19 @@
 ---
 title: CLI tool version complications
-author: Dachary Carey
+author: Yuri Cunha
 layout: post
 description: In which I attempt to debug a CLI thing and find out I made an assumption.
 date: 2021-05-20 15:01:35 +0300
 url: /2021/05/20/cli-tool-version-complications/
 image: /images/cli-version-hero.jpg
 tags: [Coding]
-
 ---
+
 I've been playing around with different versions of the `realm-cli` for some documentation projects. That means installing and uninstalling various versions via NPM. I kept getting tripped up on this complication so I'm documenting it here in case other folks find it helpful.
 
 ## NPM uninstall
 
-Using `npm uninstall` is simple, right? Just run it with the name of the package you want to uninstall, and maybe pass a few flags like `-g` if needed, and the package is gone. 
+Using `npm uninstall` is simple, right? Just run it with the name of the package you want to uninstall, and maybe pass a few flags like `-g` if needed, and the package is gone.
 
 So here's what my command line looked like today:
 
@@ -42,7 +42,7 @@ npm@7.4.0
 
 Now the astute among you will probably spot the problem pretty much immediately. I went a bit further before I figured it out.
 
-I popped into `/usr/local/lib`. Didn't see my `realm-cli` there, but I did see `node_modules`, so I figured that was where I needed to be. Changed directory into there, did a little `ls`, and Bob's your uncle: 
+I popped into `/usr/local/lib`. Didn't see my `realm-cli` there, but I did see `node_modules`, so I figured that was where I needed to be. Changed directory into there, did a little `ls`, and Bob's your uncle:
 
 ```shell
 bluehawk    m   mongodb-realm-cli   npm

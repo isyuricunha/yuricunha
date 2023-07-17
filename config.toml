@@ -3,7 +3,7 @@
 
 baseURL = 'https://dacharycarey.com/'
 languageCode = 'en-us'
-title = 'Dachary Carey'
+title = 'Yuri Cunha'
 theme = 'menca'
 googleAnalytics = "" # Add your identifier. For example UA-99631805-1.
 paginate = 9
@@ -50,7 +50,7 @@ paginate = 9
   #-------------------------------
   # Author Settings
   [params.author]
-    author__name = "Dachary Carey"
+    author__name = "Yuri Cunha"
     author__bio = "Tech Writer, Programmer, Coffee Enthusiast"
     author__avatar = "/images/dc.jpeg"
 
@@ -84,7 +84,7 @@ paginate = 9
   #-------------------------------
   # Hero Settings
   [params.hero]
-    hero__title = "Hey, I'm Dachary Carey"
+    hero__title = "Hey, I'm Yuri Cunha"
     hero__description = "Tech Writer, Programmer, Coffee Enthusiast"
     hero__image = "/images/IMG_6321.jpeg"
 

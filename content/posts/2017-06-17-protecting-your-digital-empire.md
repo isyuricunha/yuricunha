@@ -1,14 +1,14 @@
 ---
 title: Protecting your digital empire
-author: Dachary Carey
+author: Yuri Cunha
 layout: post
 date: 2017-06-18 15:01:35 +0300
 description: In which I explore the value of protecting your digital assets.
 url: /2017/06/17/protecting-your-digital-empire/
 image: /images/digital-empire-hero.jpg
 tags: [Business]
-
 ---
+
 After some of the conversations I've seen lately about backup strategies, I have been reminded that I'm not on my A-game when it comes to backing up my digital assets. It's not just manuscripts; it's the book covers, ad images, videos, podcasts and everything else related to the publishing empire. I've had bits and pieces backed up here and there, but not a comprehensive strategy.
 
 So hubby and I have just splurged on a [Synology][1] (a raid array storage device with redundant drives to back up computers, so even if our computer dies and our backup fails, there's another backup) and we'll be syncing it with [Backblaze][2] for offsite storage.
@@ -27,5 +27,5 @@ When your entire business is based on digital assets, this stuff matters. I have
 
 These are the types of expenses you don't necessarily think about when you start a business. I know a lot of businesses that don't have a good storage strategy, and an emergency data recovery plan with an offsite element in the event of an emergency. But these things can absolutely have a catastrophic impact on your business if you don't take the proper precautions to safeguard yourself.
 
- [1]: https://www.synology.com/
- [2]: https://www.backblaze.com/
+[1]: https://www.synology.com/
+[2]: https://www.backblaze.com/

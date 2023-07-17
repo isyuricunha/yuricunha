@@ -1,13 +1,12 @@
 ---
 title: About
 permalink: /about/
-image: '/images/IMG_6108.jpeg'
+image: "/images/IMG_6108.jpeg"
 ---
 
-A Few Words About Me
-====================
+# A Few Words About Me
 
-Hello. I'm Dachary Carey. I write stuff. It's my thing.
+Hello. I'm Yuri Cunha. I write stuff. It's my thing.
 
 Also, I love coffee.
 
@@ -27,15 +26,15 @@ I used to keep a portfolio of my work on my website, but the availability of the
 
 Currently, I mostly document [the iOS/Swift SDK for MongoDB Realm](https://docs.mongodb.com/realm/sdk/ios/), but work on other Realm and Atlas App Services documentation in the margins. This entails writing documentation and code examples for the local Realm mobile app database and the Atlas App Services products. Turns out, I really love a technical documentation job that also lets me write code examples and learn more about Swift development. Before the current gig, I've written things like:
 
-*   Technical writing, such as procedure guides, enterprise SaaS app software documentation, spec documents, and online help portals
-*   Developer-focused documentation, including API docs
-*   Lots of legal writing
-*   Far too much writing for the funeral industry
-*   Writing about precious metals
-*   Investment topics
-*   Ghostwriting business books
-*   Fashion writing (I was actually the world's foremost expert on bras a few years ago)
-*   Various forms of marketing writing, from product copy to newsletters to press releases
+- Technical writing, such as procedure guides, enterprise SaaS app software documentation, spec documents, and online help portals
+- Developer-focused documentation, including API docs
+- Lots of legal writing
+- Far too much writing for the funeral industry
+- Writing about precious metals
+- Investment topics
+- Ghostwriting business books
+- Fashion writing (I was actually the world's foremost expert on bras a few years ago)
+- Various forms of marketing writing, from product copy to newsletters to press releases
 
 My specialty has become quickly understanding difficult or technical topics, and then finding an accessible way to communicate them to non-technical readers. I'm great at organizing large volumes of information, and setting up tools and processes. Up until MongoDB, I have been the first technical writer, and even at MongoDB, I was the first writer on a team of developers. I love having a role that lets me leverage my writing skills while also writing code and example apps - this is my sweet spot.
 

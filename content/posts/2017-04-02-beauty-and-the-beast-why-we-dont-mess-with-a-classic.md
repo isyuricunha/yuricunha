@@ -1,14 +1,14 @@
 ---
-title: 'Beauty and the Beast: Why We Don’t Mess with a Classic'
-author: Dachary Carey
+title: "Beauty and the Beast: Why We Don’t Mess with a Classic"
+author: Yuri Cunha
 layout: post
 date: 2017-04-02 15:01:35 +0300
 description: In which I take issue with the Hollywood treatment of this classic fairy tale.
 url: /2017/04/02/beauty-and-the-beast-why-we-dont-mess-with-a-classic/
 image: /images/beauty-and-the-beast-hero.jpg
 tags: [Review]
-
 ---
+
 I went to see the _Beauty and the Beast_ live action movie over the weekend.
 
 I have opinions.
@@ -131,7 +131,7 @@ But I won't bother to buy it. I'll reserve that for the original Disney classic 
 
 In the meantime, I'll sit here and quietly muse on how a studio that can get things so right - like with Moana, or the original Beauty and the Beast, and some of the old classic Disney cartoons - can also do stuff like this, that comes off as tone-deaf and goes too far in ways that don't add to the story, but do drive away loyal fans.
 
- [1]: https://www.amazon.com/gp/product/B01G4N5Q28/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&tag=brilitligpre-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=B01G4N5Q28&linkId=c5e9ac55ae9b0c3d4fb29023ec3d52a3
- [2]: https://www.amazon.com/gp/product/B00OGWASXC/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&tag=brilitligpre-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=B00OGWASXC&linkId=f1ea9750a1a3e52d6e17cfb4dc0375ef
- [3]: https://www.amazon.com/gp/product/B00OGWASU0/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&tag=brilitligpre-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=B00OGWASU0&linkId=9d555f3ba5855648e787de480bb4fc31
- [4]: https://www.amazon.com/gp/product/B00317G7JM/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&tag=brilitligpre-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=B00317G7JM&linkId=42372e9c461d67ccb93c7a8cbf2c090e
+[1]: https://www.amazon.com/gp/product/B01G4N5Q28/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&tag=brilitligpre-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=B01G4N5Q28&linkId=c5e9ac55ae9b0c3d4fb29023ec3d52a3
+[2]: https://www.amazon.com/gp/product/B00OGWASXC/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&tag=brilitligpre-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=B00OGWASXC&linkId=f1ea9750a1a3e52d6e17cfb4dc0375ef
+[3]: https://www.amazon.com/gp/product/B00OGWASU0/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&tag=brilitligpre-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=B00OGWASU0&linkId=9d555f3ba5855648e787de480bb4fc31
+[4]: https://www.amazon.com/gp/product/B00317G7JM/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&tag=brilitligpre-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=B00317G7JM&linkId=42372e9c461d67ccb93c7a8cbf2c090e

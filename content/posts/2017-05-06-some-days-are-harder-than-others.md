@@ -1,14 +1,14 @@
 ---
 title: Some days are harder than others
-author: Dachary Carey
+author: Yuri Cunha
 layout: post
 date: 2017-05-07 15:01:35 +0300
 description: In which I reflect on what it means to be a writer.
 url: /2017/05/06/some-days-are-harder-than-others/
 image: /images/some-days-harder-than-others-hero.jpg
 tags: [Personal]
-
 ---
+
 Some days, being a writer is hard.
 
 You sit in a room, by yourself, pouring words out onto a screen through a keyboard. (Or a typewriter/pen onto paper, if you're old school.)

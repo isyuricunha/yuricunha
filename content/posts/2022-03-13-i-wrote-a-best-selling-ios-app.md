@@ -1,27 +1,27 @@
 ---
 title: I wrote a… best-selling iOS app?
-author: Dachary Carey
+author: Yuri Cunha
 layout: post
 description: I which I am amazed to wake up and see my app leading sales in its category.
 date: 2022-03-14 15:01:35 +0300
 url: /2022/03/13/i-wrote-a-best-selling-ios-app/
 image: /images/best-selling-app-hero.jpg
 tags: [Coding]
-
 ---
+
 Hey! Remember that time I wrote an iOS app to keep track of my Elden Ring and D&D play through details, and released it to the App Store?
 
 Why, I remember it like it was just last week...
 
-Turns out, when you email industry-specific news sources with topical news that has an interesting angle, some of them will write about your stuff. 
+Turns out, when you email industry-specific news sources with topical news that has an interesting angle, some of them will write about your stuff.
 
 My little hobby app, Shattered Ring, has been featured on a ton of video game news sites, including:
 
-  * Video Games Chronicle: [A new iOS app lets players track quests and NPCs in Elden Ring][1]
-  * Metro: [Elden Rings fan creates a task-tracker phone app so you never forget a side quest][2]
-  * Games Radar: [This Elden Ring app helps you track NPCs and side quests][3]
-  * Eurogamer: [This Elden Ring fan created an iOS app to help players track quests][4]
-  * MP1ST: [Elden Ring Side Quests Tracker "Shattered Ring" Developed by Fan Released][5]
+- Video Games Chronicle: [A new iOS app lets players track quests and NPCs in Elden Ring][1]
+- Metro: [Elden Rings fan creates a task-tracker phone app so you never forget a side quest][2]
+- Games Radar: [This Elden Ring app helps you track NPCs and side quests][3]
+- Eurogamer: [This Elden Ring fan created an iOS app to help players track quests][4]
+- MP1ST: [Elden Ring Side Quests Tracker "Shattered Ring" Developed by Fan Released][5]
 
 After the App Store approved my app last week, I spent an hour or two reaching out to 5 video-game-related news sources every night. As far as I can tell, Video Games Chronicle was the first one to write about it on Friday, and then it started showing up everywhere. There are a ton of other websites that credit the original VGC article, but a few also seem to have gone to the [Shattered Ring][6] website and actually read up on what the app is and does.
 
@@ -49,9 +49,9 @@ I knew that I wanted to make some navigation improvements to the app, and there 
 
 Automated UI tests were slow going. I've only done a little bit with UI tests, and I'm still not familiar with how to refer to all of the UI elements for testing purposes, so there was a lot of trial and error. And my app is stateful (and so are my UI tests, at the moment, although I know in principle I need to refactor them to _not_ be) so I have to wait for the entire suite to run every time I iterate, which started out at about ~15 seconds but was up to a minute by the time I went to bed.
 
-Unfortunately, I saw another review before I went to bed that made me worry: a user was reporting a crash. Not a crash! Quirks, I could live with, but crashes are not ok. So I had a semi-stressful night thinking about how to resolve that crash, and how many more tests I had to write before I could go making big changes to the app. 
+Unfortunately, I saw another review before I went to bed that made me worry: a user was reporting a crash. Not a crash! Quirks, I could live with, but crashes are not ok. So I had a semi-stressful night thinking about how to resolve that crash, and how many more tests I had to write before I could go making big changes to the app.
 
-I woke up this morning and started in on tests. But when I saw Apple's data from Saturday's sales confirming that more people had bought the app on Saturday - it hovered around #1 or #2 all day - I had a sinking feeling. I couldn't leave all those people with a buggy app. I had to fix it, even if my automated tests weren't done yet. 
+I woke up this morning and started in on tests. But when I saw Apple's data from Saturday's sales confirming that more people had bought the app on Saturday - it hovered around #1 or #2 all day - I had a sinking feeling. I couldn't leave all those people with a buggy app. I had to fix it, even if my automated tests weren't done yet.
 
 So I shifted gears. I spent some time adding a small tweak that a lot of people were requesting - the ability to edit NPC, Location, and Quest names (apparently iPhone autocorrect is aggressive!) - and finding and fixing the bug. It was a particularly snarly thing for me - I was presenting a sheet during a particular UI flow, and the sheet wasn't dismissing after creating an object. So if users pressed the "Create" button again trying to get the thing to work, it would crash on them. Although they could swipe down to dismiss, and the object would be created.
 
@@ -71,15 +71,15 @@ But, to quote a great line:
   With great power comes great responsibility.
 </blockquote>
 
-There may be hundreds of people using my app now - but now I owe them something in return. And that is stability, and maybe also an app that gets even better at doing the thing they want to do with it. 
+There may be hundreds of people using my app now - but now I owe them something in return. And that is stability, and maybe also an app that gets even better at doing the thing they want to do with it.
 
 I guess now I'm a real developer?
 
 P.S. I _am_ sorry to have disappointed all the folks who want an Android version. I had one angry person on Twitter say: "Why on earth anyone would make an iOS exclusive app is beyond me. Literally 70% of the mobile market is Android. Is this some American thing where the Apple delusion is just accepted?" Nope! Just that I don't own an Android device, and I don't know Java or Kotlin, and I'm one person who wrote this app quickly in their free time outside of their full-time job and family/social responsibilities... sorry, Android user, that an Android dev hasn't done the same by now. Although now that my app is out in the world, and has been splashed across a boatload of video game news sites, maybe some Android or multi-platform dev is out there writing something better!
 
- [1]: https://www.videogameschronicle.com/news/a-new-ios-app-lets-players-track-quests-and-npcs-in-elden-ring/
- [2]: https://metro.co.uk/2022/03/11/elden-ring-fan-creates-phone-app-so-you-never-forget-a-side-quest-16259604/
- [3]: https://www.gamesradar.com/this-elden-ring-app-helps-you-track-npcs-and-side-quests/
- [4]: https://www.eurogamer.net/articles/2022-03-12-this-elden-ring-fan-created-an-ios-app-to-help-players-track-quests
- [5]: https://mp1st.com/news/elden-ring-side-quests-tracker-shattered-ring-developed-by-fan
- [6]: https://shatteredring.com
+[1]: https://www.videogameschronicle.com/news/a-new-ios-app-lets-players-track-quests-and-npcs-in-elden-ring/
+[2]: https://metro.co.uk/2022/03/11/elden-ring-fan-creates-phone-app-so-you-never-forget-a-side-quest-16259604/
+[3]: https://www.gamesradar.com/this-elden-ring-app-helps-you-track-npcs-and-side-quests/
+[4]: https://www.eurogamer.net/articles/2022-03-12-this-elden-ring-fan-created-an-ios-app-to-help-players-track-quests
+[5]: https://mp1st.com/news/elden-ring-side-quests-tracker-shattered-ring-developed-by-fan
+[6]: https://shatteredring.com

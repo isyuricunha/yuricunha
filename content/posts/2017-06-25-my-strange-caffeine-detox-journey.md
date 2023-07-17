@@ -1,14 +1,14 @@
 ---
 title: My strange caffeine detox journey
-author: Dachary Carey
+author: Yuri Cunha
 layout: post
 description: In which I give up my beloved caffeine. Oh dear.
 date: 2017-06-25 15:01:35 +0300
 url: /2017/06/25/my-strange-caffeine-detox-journey/
 image: /images/caffiene-detox-hero.jpg
-tags: [Lifestyle,Personal]
-
+tags: [Lifestyle, Personal]
 ---
+
 If you know me at all, you know I'm a devoted coffee snob. I have an AeroPress at home and a second one at the office where I've been contracting for almost a year. I have not one, but _two_ expensive burr grinders so I can always brew from fresh beans (one at home, one at the office). I temp the water before I brew. (Different beans extract ideally at different temps - I generally prefer anywhere from 85C to 95C depending on the bean, but 92C seems to be about my sweet spot.) And I buy rather expensive single-source beans from a local roaster.
 
 So it came as a big surprise to my friends and family when, leading up to Memorial Day Weekend, I announced my intent to do a caffeine detox.
@@ -39,8 +39,8 @@ That hot chocolate tasted effing amazing. And I felt SO GREAT after I drank it. 
 
 That's when I realized two things:
 
-  1. Wow, the body really adjusts quickly to not having caffeine. I thought I'd barely feel it, because I'd been drinking _so much_ caffeine before, but let me tell you I felt the results and was very aware that the caffeine was affecting me.
-  2. Oh shit. This might be worse than I realize. If even a little hot cocoa makes me feel this way, I'm going to have to be damn careful about how I re-introduce caffeine to my life. Maybe I shouldn't drink caffeine again at all?
+1. Wow, the body really adjusts quickly to not having caffeine. I thought I'd barely feel it, because I'd been drinking _so much_ caffeine before, but let me tell you I felt the results and was very aware that the caffeine was affecting me.
+2. Oh shit. This might be worse than I realize. If even a little hot cocoa makes me feel this way, I'm going to have to be damn careful about how I re-introduce caffeine to my life. Maybe I shouldn't drink caffeine again at all?
 
 I wrestled with that for a few days. On Sunday, about five days after the hot cocoa and a little ways into week four, I decided to try a latte from one of my favorite local coffee shops. I was going to be deliberate about it - we sat there and had breakfast, and I savored the crap out of it. It was one of the most amazing coffee-drinking experiences I've ever had. And I realized: mindful coffee drinking is even more mind-blowing than habitual caffeine consumption. (This was the latte in the picture at the top of the post. Yes, I took a picture of it. It tasted even better than it looks.)
 
