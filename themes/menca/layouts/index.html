@@ -1,22 +1,22 @@
 {{ define "main" }} {{ partial "hero.html" . }}
 
-<!-- Google tag (gtag.js) -->
-<script
-  async
-  src="https://www.googletagmanager.com/gtag/js?id=G-SKVX2E8KMF"
-></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag() {
-    dataLayer.push(arguments);
-  }
-  gtag("js", new Date());
-
-  gtag("config", "G-SKVX2E8KMF");
-</script>
-
 <div class="container">
   <div class="row animate">
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-SKVX2E8KMF"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-SKVX2E8KMF");
+    </script>
+
     {{ $paginator := .Paginate (where .Site.RegularPages "Type" "posts") }} {{
     range $paginator.Pages }} {{ partial "article-content.html" . }} {{ end }}
   </div>
