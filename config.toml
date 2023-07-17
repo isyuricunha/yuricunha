@@ -29,24 +29,26 @@ paginate = 9
     name = "Events"
     url = "/events"
     weight = 3
-  
-  [[menu.main]]
-    identifier = "events"
-    name = "Events"
-    url = "/events"
-    weight = 4
 
   [[menu.main]]
     identifier = "contribute"
     name = "Contribute"
     url = "/contribute"
+    weight = 4
+
+  [[menu.main]]
+    identifier = "uses"
+    name = "Uses"
+    url = "/uses"
     weight = 5
 
   [[menu.main]]
-    identifier = "contact"
-    name = "Contact"
-    url = "/contact"
+    identifier = "about"
+    name = "About"
+    url = "/about"
     weight = 6
+
+ 
 
 
 [params]
