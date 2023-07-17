@@ -13,34 +13,40 @@ paginate = 9
 # Main Menu
 [menu]
   [[menu.main]]
-    identifier = "technical-writing"
-    name = "Technical Writing"
-    url = "/technical-writing"
+    identifier = "home"
+    name = "Home"
+    url = "/"
     weight = 1
 
   [[menu.main]]
-    identifier = "programming"
-    name = "Programming"
-    url = "/programming"
+    identifier = "posts"
+    name = "Posts"
+    url = "/posts"
     weight = 2
 
   [[menu.main]]
-    identifier = "corporate-runaways"
-    name = "Corporate Runaways"
-    url = "/corporate-runaways"
+    identifier = "events"
+    name = "Events"
+    url = "/events"
     weight = 3
+  
+  [[menu.main]]
+    identifier = "events"
+    name = "Events"
+    url = "/events"
+    weight = 4
 
   [[menu.main]]
-    identifier = "about"
-    name = "About"
-    url = "/about"
-    weight = 4
+    identifier = "contribute"
+    name = "Contribute"
+    url = "/contribute"
+    weight = 5
 
   [[menu.main]]
     identifier = "contact"
     name = "Contact"
     url = "/contact"
-    weight = 5
+    weight = 6
 
 
 [params]
