@@ -1,10 +1,8 @@
 #-------------------------------
 # General Site Settings
-
-baseURL = 'https://dacharycarey.com/'
-languageCode = 'en-us'
-title = 'Dachary Carey'
-theme = 'menca'
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "Menca"
 googleAnalytics = "" # Add your identifier. For example UA-99631805-1.
 paginate = 9
 
@@ -13,64 +11,65 @@ paginate = 9
 # Main Menu
 [menu]
   [[menu.main]]
-    identifier = "technical-writing"
-    name = "Technical Writing"
-    url = "/technical-writing"
-    weight = 1
-
-  [[menu.main]]
     identifier = "programming"
     name = "Programming"
     url = "/programming"
-    weight = 2
-
-  [[menu.main]]
-    identifier = "corporate-runaways"
-    name = "Corporate Runaways"
-    url = "/corporate-runaways"
-    weight = 3
+    weight = 1
 
   [[menu.main]]
     identifier = "about"
     name = "About"
     url = "/about"
-    weight = 4
+    weight = 2
 
   [[menu.main]]
     identifier = "contact"
     name = "Contact"
     url = "/contact"
-    weight = 5
+    weight = 3
+
+  [[menu.main]]
+    identifier = "elements"
+    name = "Elements"
+    url = "/elements"
+    weight = 4
 
 
 [params]
   logo = "" # You can add own logo. For example "/images/logo.png".
-  description = "Dachary - Tech Writer, Programmer, Coffee Enthusiast"
+  description = "Menca personal blogging theme for HUGO"
 
   #-------------------------------
   # Author Settings
   [params.author]
-    author__name = "Dachary Carey"
-    author__bio = "Tech Writer, Programmer, Coffee Enthusiast"
-    author__avatar = "/images/dc.jpeg"
+    author__name = "Camelia Mendes"
+    author__bio = "Designs, talks, and writes about web, ethics, privacy, and dev. I share design tutorials, free resources and inspiration."
+    author__avatar = "https://via.placeholder.com/200x200"
 
   [[params.social]]
-    # icon = "ion-logo-mastodon"
-    icon = "logo-mastodon"
-    name = "Mastodon"
-    link = "https://dacharycarey.social/@dachary"
+    icon = "ion-logo-twitter"
+    name = "Twitter"
+    link = "https://twitter.com"
 
   [[params.social]]
-    # icon = "ion-logo-github"
-    icon = "logo-github"
-    name = "GitHub"
-    link = "https://github.com/dacharyc"
+    icon = "ion-logo-facebook"
+    name = "Facebook"
+    link = "https://facebook.com"
 
   [[params.social]]
-    # icon = "ion-logo-linkedin"
-    icon = "logo-linkedin"
-    name = "LinkedIn"
-    link = "https://www.linkedin.com/in/dachary/"
+    icon = "ion-logo-instagram"
+    name = "Instagram"
+    link = "https://instagram.com"
+
+  [[params.social]]
+    icon = "ion-logo-pinterest"
+    name = "Pinterest"
+    link = "https://pinterest.com"
+
+  [[params.social]]
+    icon = "ion-logo-youtube"
+    name = "Youtube"
+    link = "https://youtube.com"
 
   # Example of adding a new link to the author section and footer:
   # [[params.social]]
@@ -84,57 +83,64 @@ paginate = 9
   #-------------------------------
   # Hero Settings
   [params.hero]
-    hero__title = "Hey, I'm Dachary Carey"
-    hero__description = "Tech Writer, Programmer, Coffee Enthusiast"
-    hero__image = "/images/IMG_6321.jpeg"
+    hero__title = "Hey, I’m Camelia Mendes"
+    hero__description = "Designs, talks, and writes about web, ethics, privacy, and dev. I share design tutorials, free resources and inspiration."
+    hero__image = "https://via.placeholder.com/1200x800"
+
+  # Newsletter
+  # [params.mailchimp]
+    # mailchimp__identifier = "frnla.us6.list-manage.com/subscribe/post?u=6314d69a3f315af7ce3fb00a0&amp;id=3038727cc3" # Add your MailChimp form identifier. For example - frnla.us6.list-manage.com/subscribe/post?u=6314d69a3f315af7ce3fb00a0&amp;id=3038727cc3
+    # mailchimp__input__text = "Subscribe here"
+    # mailchimp__button__text = "Get a new tip"
+
 
   #-------------------------------
   # Gallery Footer Section
   [params.gallery]
-    gallery__title = "Talk to Me About..."
+    gallery__title = "Gallery"
     gallery__columns = 3 # You can change the number of gallery columns
 
   [[params.gallery_image]]
-    image_alt = "Me and my shadow"
-    image_url = "/images/gallery-ash-on-dachary.jpg"
+    image_alt = "Rest"
+    image_url = "https://via.placeholder.com/800x600"
 
   [[params.gallery_image]]
-    image_alt = "Ash, our Maine Coon cat"
-    image_url = "/images/gallery-ash.jpg"
+    image_alt = "Lifestyle"
+    image_url = "https://via.placeholder.com/800x600"
 
   [[params.gallery_image]]
-    image_alt = "Ash the cat stands on Kay's shoulders"
-    image_url = "/images/gallery-ash-on-kay.jpg"
+    image_alt = "Hobby"
+    image_url = "https://via.placeholder.com/800x600"
 
   [[params.gallery_image]]
-    image_alt = "Maui and Lita, our two dogs, snuggling"
-    image_url = "/images/gallery-maui-and-lita.jpg"
+    image_alt = "Notes"
+    image_url = "https://via.placeholder.com/800x600"
 
   [[params.gallery_image]]
-    image_alt = "Maui and Lita our two dogs, under beautiful spring blossoms"
-    image_url = "/images/gallery-maui-and-lita-tree-blossoms.jpg"
+    image_alt = "Rest"
+    image_url = "https://via.placeholder.com/800x600"
 
   [[params.gallery_image]]
-    image_alt = "Maui and Ash, our dog and cat, snuggling"
-    image_url = "/images/gallery-maui-and-ash.jpg"
+    image_alt = "Hobby"
+    image_url = "https://via.placeholder.com/800x600"
 
   [[params.gallery_image]]
-    image_alt = "Coffee, a good book, and a liege waffle - paradise"
-    image_url = "/images/gallery-coffee-and-book.jpg"
+    image_alt = "Fashion"
+    image_url = "https://via.placeholder.com/800x600"
 
   [[params.gallery_image]]
-    image_alt = "Taking the tractor out for a little work"
-    image_url = "/images/gallery-tractor.jpg"
+    image_alt = "Notes"
+    image_url = "https://via.placeholder.com/800x600"
 
   [[params.gallery_image]]
-    image_alt = "Coding away on an iOS app"
-    image_url = "/images/gallery-coding.jpg"
+    image_alt = "Rest"
+    image_url = "https://via.placeholder.com/800x600"
 
 
   #-------------------------------
   # Contact Settings
   [params.contact]
-    email = "f/xqkjjenb" # Add your formspree contact form. This is everything after https://formspree.io/
+    email = "your@email.com" # Add your email for contant form
 
     # NOTE
     # Menca comes with a built-in contact form, that you can use with Formspree service to handle up to 50 submissions per month for free. You could also easily switch to another contact form service if you want.
@@ -159,4 +165,3 @@ paginate = 9
   codeFences = true
   guessSyntax = true
   noClasses = false
-
