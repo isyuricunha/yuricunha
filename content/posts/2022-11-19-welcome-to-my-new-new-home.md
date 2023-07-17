@@ -37,15 +37,15 @@ And the actual image links came across as ridiculous HTML tags ala:
   loading="lazy"
   width="555"
   height="1200"
-  src="https://www.beta.yuricunha.xyz/wp-content/uploads/2022/03/96540297-7A35-4EB3-A179-4C9223F66AEE_1_102_o-555x1200.jpeg"
+  src="https://beta.yuricunha.xyz/wp-content/uploads/2022/03/96540297-7A35-4EB3-A179-4C9223F66AEE_1_102_o-555x1200.jpeg"
   alt=""
   class="wp-image-480"
   srcset="
-    https://www.beta.yuricunha.xyz/wp-content/uploads/2022/03/96540297-7A35-4EB3-A179-4C9223F66AEE_1_102_o-555x1200.jpeg  555w,
-    https://www.beta.yuricunha.xyz/wp-content/uploads/2022/03/96540297-7A35-4EB3-A179-4C9223F66AEE_1_102_o-139x300.jpeg   139w,
-    https://www.beta.yuricunha.xyz/wp-content/uploads/2022/03/96540297-7A35-4EB3-A179-4C9223F66AEE_1_102_o-768x1662.jpeg  768w,
-    https://www.beta.yuricunha.xyz/wp-content/uploads/2022/03/96540297-7A35-4EB3-A179-4C9223F66AEE_1_102_o-710x1536.jpeg  710w,
-    https://www.beta.yuricunha.xyz/wp-content/uploads/2022/03/96540297-7A35-4EB3-A179-4C9223F66AEE_1_102_o.jpeg          1170w
+    https://beta.yuricunha.xyz/wp-content/uploads/2022/03/96540297-7A35-4EB3-A179-4C9223F66AEE_1_102_o-555x1200.jpeg  555w,
+    https://beta.yuricunha.xyz/wp-content/uploads/2022/03/96540297-7A35-4EB3-A179-4C9223F66AEE_1_102_o-139x300.jpeg   139w,
+    https://beta.yuricunha.xyz/wp-content/uploads/2022/03/96540297-7A35-4EB3-A179-4C9223F66AEE_1_102_o-768x1662.jpeg  768w,
+    https://beta.yuricunha.xyz/wp-content/uploads/2022/03/96540297-7A35-4EB3-A179-4C9223F66AEE_1_102_o-710x1536.jpeg  710w,
+    https://beta.yuricunha.xyz/wp-content/uploads/2022/03/96540297-7A35-4EB3-A179-4C9223F66AEE_1_102_o.jpeg          1170w
   "
   sizes="(max-width: 555px) 100vw, 555px"
 />

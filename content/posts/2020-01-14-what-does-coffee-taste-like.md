@@ -55,10 +55,10 @@ In thinking about coffee tasting notes as you drink it, you also get a more mind
 
 So yeah, if you're at all interested in coffee, I encourage you to take a look at the tasting wheel and start thinking about - and enjoying - the coffee you drink. And the next time I talk about how I love coffee, maybe now you'll understand better how I got there, and what loving coffee means to me.
 
-[1]: https://www.beta.yuricunha.xyz/wp-content/uploads/2020/01/CCC_FlavorWheel_english.pdf
-[2]: https://www.beta.yuricunha.xyz/about/
+[1]: https://beta.yuricunha.xyz/wp-content/uploads/2020/01/CCC_FlavorWheel_english.pdf
+[2]: https://beta.yuricunha.xyz/about/
 [3]: https://www.campunleashed.com/
 [4]: https://aeropress.com/
 [5]: https://handground.com/grind/66-recipes-for-amazing-aeropress-coffee
 [6]: https://counterculturecoffee.com/sabor
-[7]: https://www.beta.yuricunha.xyz/2017/06/25/my-strange-caffeine-detox-journey/
+[7]: https://beta.yuricunha.xyz/2017/06/25/my-strange-caffeine-detox-journey/

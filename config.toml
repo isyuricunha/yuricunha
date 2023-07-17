@@ -1,7 +1,7 @@
 #-------------------------------
 # General Site Settings
 
-baseURL = 'https://www.beta.yuricunha.xyz/'
+baseURL = 'https://beta.yuricunha.xyz/'
 languageCode = 'en-us'
 title = 'Yuri Cunha'
 theme = 'menca'
