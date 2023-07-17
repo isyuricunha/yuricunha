@@ -27,4 +27,4 @@ Wish me luck!
 
 [1]: https://80000hours.org/job-board/
 [2]: https://80000hours.org/problem-profiles/
-[3]: https://dacharycarey.com/contact/
+[3]: https://www.beta.yuricunha.xyz/contact/

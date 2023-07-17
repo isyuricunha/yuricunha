@@ -64,4 +64,4 @@ It helps to have strong samples, and be able to speak authoritatively to process
 Finally, YMMV but there’s a freelance developer on a Slack where I’m a member, and he routinely posts queries he gets from his Craigslist ads (developer offering services) when he doesn’t have the bandwidth to do them himself, so there may be some traction there; I’m not sure.
 
 [1]: https://www.writethedocs.org/slack/
-[2]: https://dacharycarey.com/2019/02/21/the-downside-of-works-for-hire-ndas-and-dead-links/
+[2]: https://www.beta.yuricunha.xyz/2019/02/21/the-downside-of-works-for-hire-ndas-and-dead-links/
