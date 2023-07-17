@@ -1,34 +1,42 @@
 ---
 title: About
 permalink: /about/
-image: 'https://via.placeholder.com/1200x800'
+image: '/images/IMG_6108.jpeg'
 ---
 
-Leverage agile frameworks to provide a robust Hugo Sousa synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.
+A Few Words About Me
+====================
 
-Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.
+Hello. I'm Dachary Carey. I write stuff. It's my thing.
 
-Collaboratively administrate turnkey channels whereas virtual e-tailers. Objectively seize scalable metrics whereas proactive e-services. Seamlessly empower fully researched growth strategies and interoperable internal or “organic” sources.
+Also, I love coffee.
 
-<div class="gallery-box">
-  <div class="gallery">
-    <img src="https://via.placeholder.com/800x600">
-    <img src="https://via.placeholder.com/800x600">
-    <img src="https://via.placeholder.com/800x600">
-  </div>
-  <em>Gallery / <a href="https://via.placeholder.com/1200x800" target="_blank">Unsplash</a></em>
-</div>
+Good coffee, though. None of this mass-produced Dunkin' Donuts swill. (Yes, I live in New England and am well-aware of the blasphemy in that statement. I stand by it.)
 
-Completely synergize resource taxing relationships via premier niche markets. Cultivate one-to-one customer service with robust ideas. Dynamically innovate resource-leveling customer service for state of the art customer service.
+The amount of stuff I write may be in direct proportion to the amount of coffee I've had today.
 
-Objectively innovate empowered manufactured products whereas parallel platforms. Holisticly predominate extensible testing procedures for reliable supply chains. Dramatically engage top-line web services vis-a-vis cutting-edge deliverables.
+I'm married to the inestimable [Kay Rhodes](http://masukomi.org/). We love to travel. If you like to read about travel, or see pretty travel pics, check out our travel site: [Corporate Runaways](http://www.corporaterunaways.com/).
 
-### Synergistically evolve
+We have two dogs (Lita, a Lab/Beagle mix, and Maui, an English Springer Spaniel), and a cat (Ash, a Maine Coone). I talk about them - maybe a little more than I should. If you're just here for the cute pet pics, yes, they have [their own Instagram account](https://www.instagram.com/ashlita2018/).
 
-Globally incubate standards compliant channels before scalable benefits. Quickly disseminate superior deliverables whereas web-enabled applications. Quickly drive clicks-and-mortar catalysts for change before vertical architectures.
+Still here? Ok. On to the slightly more boring stuff:
 
-<p><iframe src="https://www.youtube.com/embed/NpEaa2P7qZI" width="640" height="360" frameborder="0" allowfullscreen></iframe></p>
+I'm a professional writer. I've been writing for over 20 years, and I quit my day job to do it professionally over 15 years ago. Wow. I'm getting old. I transitioned to focus on software technical documentation in 2016, and joined the Developer Education team at MongoDB at the beginning of 2021.
 
-Credibly reintermediate backend ideas for cross-platform models. Continually reintermediate integrated processes through technically sound intellectual capital. Holistically foster superior methodologies without market-driven best practices.
+I used to keep a portfolio of my work on my website, but the availability of the sources kept changing, which made lots of broken links... that didn't make anyone happy.
 
-Distinctively exploit optimal alignments for intuitive bandwidth. Quickly coordinate e-business applications through revolutionary catalysts for change. Seamlessly underwhelm optimal testing procedures whereas bricks-and-clicks processes.
+Currently, I mostly document [the iOS/Swift SDK for MongoDB Realm](https://docs.mongodb.com/realm/sdk/ios/), but work on other Realm and Atlas App Services documentation in the margins. This entails writing documentation and code examples for the local Realm mobile app database and the Atlas App Services products. Turns out, I really love a technical documentation job that also lets me write code examples and learn more about Swift development. Before the current gig, I've written things like:
+
+*   Technical writing, such as procedure guides, enterprise SaaS app software documentation, spec documents, and online help portals
+*   Developer-focused documentation, including API docs
+*   Lots of legal writing
+*   Far too much writing for the funeral industry
+*   Writing about precious metals
+*   Investment topics
+*   Ghostwriting business books
+*   Fashion writing (I was actually the world's foremost expert on bras a few years ago)
+*   Various forms of marketing writing, from product copy to newsletters to press releases
+
+My specialty has become quickly understanding difficult or technical topics, and then finding an accessible way to communicate them to non-technical readers. I'm great at organizing large volumes of information, and setting up tools and processes. Up until MongoDB, I have been the first technical writer, and even at MongoDB, I was the first writer on a team of developers. I love having a role that lets me leverage my writing skills while also writing code and example apps - this is my sweet spot.
+
+Outside of writing docs, I've been getting more into coding. I've released one iOS app to the app store, and have another in the works. I live on a beautiful property in Vermont, where I get to putter around with my tractor and do various projects. I'm big into DIY, from converting an ambulance to an RV to wrenching on my motorcycles to working on stuff around the house. I love playing D&D, and enjoy painting minis. And I'm a great baker. Let me make you some cookies sometime!
