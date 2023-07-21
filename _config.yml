@@ -1,0 +1,110 @@
+---
+#-------------------------------
+# Site Settings
+title: Yuri Cunha
+logo: # You can add own logo. For example '/images/logo.png'.
+description: One Less Clutter - The Valued Life
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+color_scheme: dark # You can choose three modes auto, light, and dark. By default, the auto mode is set, which means the user can choose the light or dark mode themself.
+
+#-------------------------------
+# Author Settings
+author:
+  author__name: Yuri
+  author__bio: Seeks minimalism and a valued life.
+  author__avatar: "/images/yuri.jpg"
+
+social:
+  - { icon: "ion-logo-twitter", link: "https://twitter.com/isyuricunha" }
+  # - {icon: "ion-logo-facebook", link: "https://facebook.com"}
+  - {
+      icon: "ion-logo-instagram",
+      link: "https://www.instagram.com/isyuricunha/",
+    }
+# - {icon: "ion-logo-pinterest", link: "https://pinterest.com"}
+# - {icon: "ion-logo-youtube", link: "https://youtube.com"}
+
+# Example of adding a new link to the footer - {icon: "ion-logo-dribbble", link: "https://dribbble.com"}
+# Other icons can be found at https://ionicons.com/v4/
+
+#-------------------------------
+# Hero Settings
+hero:
+  hero__title: Hey, I’m Yuri
+  hero__description: Seeks minimalism and a valued life.
+  hero__image: "/images/yuri.jpg"
+
+#-------------------------------
+# Newsletter
+mailchimp: enable # To enable the mailchimp form, use the value 'enable'. To disable the form, leave the field blank.
+mailchimp__identifier: rylack.us18.list-manage.com/subscribe/post?u=d941d823206349ef4633f9094&amp;id=ffb7c67702&amp;f_id=003d26e7f0 # Add your MailChimp form identifier. For example - frnla.us6.list-manage.com/subscribe/post?u=6314d69a3f315af7ce3fb00a0&amp;id=3038727cc3
+mailchimp__input__text: Subscribe here
+mailchimp__button__text: Get a new tip
+
+#-------------------------------
+# Gallery Footer Section
+gallery:
+  gallery__title: Gallery
+  gallery__columns: 0
+  gallery__images:
+#    - alt: 'Rest'
+#      url: '/images/100.jpg'
+#    - alt: 'Lifestyle'
+#      url: '/images/101.jpg'
+#    - alt: 'Hobby'
+#      url: '/images/102.jpg'
+#    - alt: 'Notes'
+#      url: '/images/103.jpg'
+#    - alt: 'Rest'
+#      url: '/images/104.jpg'
+#    - alt: 'Hobby'
+#      url: '/images/105.jpg'
+#    - alt: 'Fashion'
+#      url: '/images/106.jpg'
+#    - alt: 'Notes'
+#      url: '/images/107.jpg'
+#    - alt: 'Rest'
+#      url: '/images/108.jpg'
+
+#-------------------------------
+# Contact Settings
+contact:
+  email: blog@isyuricunha.com # Add your email for contant form
+  description: Menso comes with a built-in contact form, that you can use with Formspree service to handle up to 50 submissions per month for free. You could also easily switch to another contact form service if you want. # Add a description of your form
+
+# NOTE
+# Menso theme comes with a contact form built-in. You can use this form with Formspree (https://formspree.io/) service and get up to 50 submissions for free. Also, you can easily switch to another service if you want.
+
+#-------------------------------
+# Comment Section (Disqus)
+disqus-identifier: isyuricunha # Add your shortname for Disqus Comment. For example demo-menca
+
+#-------------------------------
+# Google Analytics
+google-analytics: G-PK4DQP0095
+
+#-------------------------------
+# Build Settings
+markdown: kramdown
+permalink: /:title
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+
+paginate: 9
+paginate_path: "/page/:num"
+
+# Pages Path
+defaults:
+  - scope:
+      path: "_pages"
+    values:
+      permalink: /:basename:output_ext
+
+include:
+  - _pages
+
+sass:
+  sass_dir: _sass
+  style: compressed
