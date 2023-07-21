@@ -105,11 +105,11 @@ paginate = 9
 
   #-------------------------------
   # Contact Settings
-  [params.contact]
-    email = "f/xqkjjenb" # Add your formspree contact form. This is everything after https://formspree.io/
-
-    # NOTE
-    # Menca comes with a built-in contact form, that you can use with Formspree service to handle up to 50 submissions per month for free. You could also easily switch to another contact form service if you want.
+#  [params.contact]
+#    email = "f/xqkjjenb" # Add your formspree contact form. This is everything after https://formspree.io/
+#
+#    # NOTE
+#    # Menca comes with a built-in contact form, that you can use with Formspree service to handle up to 50 submissions per month for free. You could also easily switch to another contact form service if you want.
 
   #-------------------------------
   # Comment Section (Disqus)
