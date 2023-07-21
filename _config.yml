@@ -41,28 +41,28 @@ mailchimp__button__text: Get a new tip
 
 #-------------------------------
 # Gallery Footer Section
-gallery: false
-  gallery__title: Gallery
-  gallery__columns: 3
-  gallery__images:
-    - alt: "Rest"
-      url: "/images/100.jpg"
-    - alt: "Lifestyle"
-      url: "/images/101.jpg"
-    - alt: "Hobby"
-      url: "/images/102.jpg"
-    - alt: "Notes"
-      url: "/images/103.jpg"
-    - alt: "Rest"
-      url: "/images/104.jpg"
-    - alt: "Hobby"
-      url: "/images/105.jpg"
-    - alt: "Fashion"
-      url: "/images/106.jpg"
-    - alt: "Notes"
-      url: "/images/107.jpg"
-    - alt: "Rest"
-      url: "/images/108.jpg"
+# gallery:
+#   gallery__title: Gallery
+#   gallery__columns: 3
+#   gallery__images:
+#     - alt: "Rest"
+#       url: "/images/100.jpg"
+#     - alt: "Lifestyle"
+#       url: "/images/101.jpg"
+#     - alt: "Hobby"
+#       url: "/images/102.jpg"
+#     - alt: "Notes"
+#       url: "/images/103.jpg"
+#     - alt: "Rest"
+#       url: "/images/104.jpg"
+#     - alt: "Hobby"
+#       url: "/images/105.jpg"
+#     - alt: "Fashion"
+#       url: "/images/106.jpg"
+#     - alt: "Notes"
+#       url: "/images/107.jpg"
+#     - alt: "Rest"
+#       url: "/images/108.jpg"
 
 #-------------------------------
 # Contact Settings
