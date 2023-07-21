@@ -98,9 +98,9 @@ paginate = 9
 
   #-------------------------------
   # Gallery Footer Section
-  [params.gallery]
-    gallery__title = "Talk to Me About..."
-    gallery__columns = 3 # You can change the number of gallery columns
+#  [params.gallery]
+#    gallery__title = "Talk to Me About..."
+#    gallery__columns = 3 # You can change the number of gallery columns
 
 
   #-------------------------------
