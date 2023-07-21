@@ -1,5 +1,6 @@
 ---
 layout: page
+title: Elements
 permalink: /elements/
 image: '/images/17.jpg'
 ---

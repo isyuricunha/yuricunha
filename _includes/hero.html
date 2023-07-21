@@ -5,8 +5,9 @@
       <div class="col col-12">
         <div class="hero__inner">
 
-            <!-- <h1 class="hero__title">{{ site.hero.hero__title }}</h1>
-            <p class="hero__description">{{ site.hero.hero__description }}</p> -->
+          <div class="hero__left">
+            <h1 class="hero__title">{{ site.hero.hero__title }}</h1>
+            <p class="hero__description">{{ site.hero.hero__description }}</p>
             {% if site.mailchimp == "enable" %}
             <div class="hero__subscribe">
               <form class="subscribe-form validate"
@@ -18,14 +19,13 @@
               </form>
             </div>
             {% endif %}
+          </div>
 
-<!--
           <div class="hero__right">
             <div class="hero__image">
               <img class="lazy" data-src="{{ site.hero.hero__image }}" alt="{{site.author.name}}'s Picture">
             </div>
           </div>
--->  
 
         </div>
       </div>
