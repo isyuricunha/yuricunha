@@ -1,38 +1,36 @@
+---
 #-------------------------------
 # Site Settings
-title: Menca
+title: Yuri Cunha
 logo: # You can add own logo. For example '/images/logo.png'.
-description: Menca personal blogging theme for Jekyll
+description: Yuri Cunha personal blogging theme for Jekyll
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 color_scheme: auto # You can choose three modes auto, light, and dark. By default, the auto mode is set, which means the user can choose the light or dark mode themself.
-
 
 #-------------------------------
 # Author Settings
 author:
   author__name: Camelia Mendes
   author__bio: Designs, talks, and writes about web, ethics, privacy, and dev. I share design tutorials, free resources and inspiration.
-  author__avatar: '/images/01-1.jpg'
+  author__avatar: "/images/01-1.jpg"
 
 social:
-- {icon: "ion-logo-twitter", link: "https://twitter.com"}
-- {icon: "ion-logo-facebook", link: "https://facebook.com"}
-- {icon: "ion-logo-instagram", link: "https://instagram.com"}
-- {icon: "ion-logo-pinterest", link: "https://pinterest.com"}
-- {icon: "ion-logo-youtube", link: "https://youtube.com"}
+  - { icon: "ion-logo-twitter", link: "https://twitter.com" }
+  - { icon: "ion-logo-facebook", link: "https://facebook.com" }
+  - { icon: "ion-logo-instagram", link: "https://instagram.com" }
+  - { icon: "ion-logo-pinterest", link: "https://pinterest.com" }
+  - { icon: "ion-logo-youtube", link: "https://youtube.com" }
 
 # Example of adding a new link to the footer - {icon: "ion-logo-dribbble", link: "https://dribbble.com"}
 # Other icons can be found at https://ionicons.com/v4/
-
 
 #-------------------------------
 # Hero Settings
 hero:
   hero__title: Hey, I’m Camelia Mendes
   hero__description: Designs, talks, and writes about web, ethics, privacy, and dev. I share design tutorials, free resources and inspiration.
-  hero__image: '/images/01.jpg'
-
+  hero__image: "/images/01.jpg"
 
 #-------------------------------
 # Newsletter
@@ -41,32 +39,30 @@ mailchimp__identifier: frnla.us6.list-manage.com/subscribe/post?u=6314d69a3f315a
 mailchimp__input__text: Subscribe here
 mailchimp__button__text: Get a new tip
 
-
 #-------------------------------
 # Gallery Footer Section
 gallery:
   gallery__title: Gallery
   gallery__columns: 3
   gallery__images:
-    - alt: 'Rest'
-      url: '/images/100.jpg'
-    - alt: 'Lifestyle'
-      url: '/images/101.jpg'
-    - alt: 'Hobby'
-      url: '/images/102.jpg'
-    - alt: 'Notes'
-      url: '/images/103.jpg'
-    - alt: 'Rest'
-      url: '/images/104.jpg'
-    - alt: 'Hobby'
-      url: '/images/105.jpg'
-    - alt: 'Fashion'
-      url: '/images/106.jpg'
-    - alt: 'Notes'
-      url: '/images/107.jpg'
-    - alt: 'Rest'
-      url: '/images/108.jpg'
-
+    - alt: "Rest"
+      url: "/images/100.jpg"
+    - alt: "Lifestyle"
+      url: "/images/101.jpg"
+    - alt: "Hobby"
+      url: "/images/102.jpg"
+    - alt: "Notes"
+      url: "/images/103.jpg"
+    - alt: "Rest"
+      url: "/images/104.jpg"
+    - alt: "Hobby"
+      url: "/images/105.jpg"
+    - alt: "Fashion"
+      url: "/images/106.jpg"
+    - alt: "Notes"
+      url: "/images/107.jpg"
+    - alt: "Rest"
+      url: "/images/108.jpg"
 
 #-------------------------------
 # Contact Settings
@@ -77,16 +73,13 @@ contact:
 # NOTE
 # Menso theme comes with a contact form built-in. You can use this form with Formspree (https://formspree.io/) service and get up to 50 submissions for free. Also, you can easily switch to another service if you want.
 
-
 #-------------------------------
 # Comment Section (Disqus)
 disqus-identifier: demo-menca # Add your shortname for Disqus Comment. For example demo-menca
 
-
 #-------------------------------
 # Google Analytics
 google-analytics: # Add your GA Tracking Id
-
 
 #-------------------------------
 # Build Settings
@@ -102,10 +95,9 @@ paginate_path: "/page/:num"
 # Pages Path
 defaults:
   - scope:
-      path: '_pages'
+      path: "_pages"
     values:
       permalink: /:basename:output_ext
-
 
 include:
   - _pages
