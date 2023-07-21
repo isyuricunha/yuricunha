@@ -6,14 +6,14 @@ logo: # You can add own logo. For example '/images/logo.png'.
 description: One Less Clutter - The Valued Life
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-color_scheme: dark # You can choose three modes auto, light, and dark. By default, the auto mode is set, which means the user can choose the light or dark mode themself.
+color_scheme: auto # You can choose three modes auto, light, and dark. By default, the auto mode is set, which means the user can choose the light or dark mode themself.
 
 #-------------------------------
 # Author Settings
 author:
   author__name: Yuri
   author__bio: Seeks minimalism and a valued life.
-  author__avatar: "/images/yuri.jpg"
+  author__avatar: "/images/01-1.jpg"
 
 social:
   - { icon: "ion-logo-twitter", link: "https://twitter.com/isyuricunha" }
@@ -33,7 +33,7 @@ social:
 hero:
   hero__title: Hey, I’m Yuri
   hero__description: Seeks minimalism and a valued life.
-  hero__image: "/images/yuri.jpg"
+  hero__image: "/images/01.jpg"
 
 #-------------------------------
 # Newsletter
@@ -46,7 +46,7 @@ mailchimp__button__text: Get a new tip
 # Gallery Footer Section
 gallery:
   gallery__title: Gallery
-  gallery__columns: 0
+  gallery__columns: 3
   gallery__images:
 #    - alt: 'Rest'
 #      url: '/images/100.jpg'
