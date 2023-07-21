@@ -1,7 +1,7 @@
 ---
 #-------------------------------
 # Site Settings
-title: Yuri Cunha
+title: One Less Clutter
 logo: # You can add own logo. For example '/images/logo.png'.
 description: One Less Clutter - The Valued Life
 baseurl: "" # the subpath of your site, e.g. /blog
@@ -11,16 +11,16 @@ color_scheme: auto # You can choose three modes auto, light, and dark. By defaul
 #-------------------------------
 # Author Settings
 author:
-  author__name: Yuri
+  author__name: Erickson
   author__bio: Seeks minimalism and a valued life.
   author__avatar: "/images/01-1.jpg"
 
 social:
-  - { icon: "ion-logo-twitter", link: "https://twitter.com/isyuricunha" }
+  - { icon: "ion-logo-twitter", link: "https://twitter.com/onelessclutter" }
   # - {icon: "ion-logo-facebook", link: "https://facebook.com"}
   - {
       icon: "ion-logo-instagram",
-      link: "https://www.instagram.com/isyuricunha/",
+      link: "https://www.instagram.com/onelessclutter/",
     }
 # - {icon: "ion-logo-pinterest", link: "https://pinterest.com"}
 # - {icon: "ion-logo-youtube", link: "https://youtube.com"}
@@ -31,7 +31,7 @@ social:
 #-------------------------------
 # Hero Settings
 hero:
-  hero__title: Hey, I’m Yuri
+  hero__title: Hey, I’m Erickson
   hero__description: Seeks minimalism and a valued life.
   hero__image: "/images/01.jpg"
 
@@ -70,7 +70,7 @@ gallery:
 #-------------------------------
 # Contact Settings
 contact:
-  email: blog@isyuricunha.com # Add your email for contant form
+  email: blog@onelessclutter.com # Add your email for contant form
   description: Menso comes with a built-in contact form, that you can use with Formspree service to handle up to 50 submissions per month for free. You could also easily switch to another contact form service if you want. # Add a description of your form
 
 # NOTE
@@ -78,7 +78,7 @@ contact:
 
 #-------------------------------
 # Comment Section (Disqus)
-disqus-identifier: isyuricunha # Add your shortname for Disqus Comment. For example demo-menca
+disqus-identifier: onelessclutter # Add your shortname for Disqus Comment. For example demo-menca
 
 #-------------------------------
 # Google Analytics
