@@ -41,7 +41,7 @@ mailchimp__button__text: Get a new tip
 
 #-------------------------------
 # Gallery Footer Section
-gallery:
+gallery: false
   gallery__title: Gallery
   gallery__columns: 3
   gallery__images:
