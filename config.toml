@@ -1,7 +1,7 @@
 #-------------------------------
 # General Site Settings
 
-baseURL = 'https://papaya-melba-984425.netlify.app/'
+baseURL = ''
 languageCode = 'en-us'
 title = 'Yuri Cunha'
 theme = 'menca'
