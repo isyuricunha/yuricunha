@@ -13,7 +13,7 @@ color_scheme: auto # You can choose three modes auto, light, and dark. By defaul
 author:
   author__name: Yuri
   author__bio: Designs, talks, and writes about web, ethics, privacy, and dev. I share design tutorials, free resources and inspiration.
-  author__avatar: "/images/yuri-face.jpg
+  author__avatar: "/images/yuri-face.jpg"
 
 social:
   - { icon: "ion-logo-twitter", link: "https://twitter./isyuricunha" }
