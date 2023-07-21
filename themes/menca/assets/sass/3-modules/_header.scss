@@ -5,8 +5,8 @@
     display: flex;
     align-items: center;
     flex-wrap: wrap;
-    padding: 44px $base-spacing-unit;
-  
+    padding: 44px 16px;
+
     @media only screen and (max-width: $desktop) {
       padding: 40px $base-spacing-unit;
     }
@@ -25,7 +25,7 @@
   letter-spacing: -1px;
   line-height: 1;
   font-weight: 700;
-  transition: color .25s ease;
+  transition: color 0.25s ease;
 
   &:hover {
     color: var(--brand-color);
@@ -54,7 +54,7 @@
     &.is-open {
       opacity: 1;
       visibility: visible;
-      transition: all .25s ease;
+      transition: all 0.25s ease;
     }
 
     .nav__list {
@@ -73,7 +73,7 @@
           display: inline-block;
           padding: 16px 0;
           font-size: 18px;
-          transition: color .25s ease;
+          transition: color 0.25s ease;
 
           &:hover {
             color: var(--brand-color);
@@ -169,7 +169,7 @@
       font-size: 16px;
       line-height: 1;
       font-weight: 700;
-      transition: color .25s ease;
+      transition: color 0.25s ease;
 
       &:hover {
         color: var(--brand-color);
@@ -190,7 +190,7 @@
 
   .icon__menu,
   .icon__search {
-    transition: color .25s ease;
+    transition: color 0.25s ease;
 
     &:hover {
       color: var(--brand-color);
@@ -229,7 +229,7 @@
 .toggle-moon {
   position: absolute;
   font-size: 20px;
-  transition: color .25s ease;
+  transition: color 0.25s ease;
   color: var(--heading-font-color);
 
   &:hover {
