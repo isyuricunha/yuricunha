@@ -52,7 +52,7 @@ paginate = 9
 
 
 [params]
-  logo = "./static/images/yuri.jpg" # You can add own logo. For example "/images/logo.png".
+  logo = "/images/yuri.jpg" # You can add own logo. For example "/images/logo.png".
   description = "I write and operate database for a living."
 
   #-------------------------------
@@ -60,7 +60,7 @@ paginate = 9
   [params.author]
     author__name = "Yuri Cunha"
     author__bio = "Tech Writer, Database Programmer, Tea Enthusiast"
-    author__avatar = "./static/images/yuri.jpg"
+    author__avatar = "/images/yuri.jpg"
 
   [[params.social]]
     # icon = "ion-logo-mastodon"
