@@ -52,7 +52,7 @@ paginate = 9
 
 
 [params]
-  logo = "/images/yuri.jpg" # You can add own logo. For example "/images/logo.png".
+  logo = "" # You can add own logo. For example "/images/logo.png".
   description = "I write and operate database for a living."
 
   #-------------------------------
@@ -92,7 +92,7 @@ paginate = 9
   #-------------------------------
   # Hero Settings
   [params.hero]
-    hero__title = "Hey, I'm Yuri Cunha"
+    hero__title = "Hey, I'm Yuri"
     hero__description = "Tech Writer, Database Programmer, Tea Enthusiast"
     hero__image = "/images/IMG_6321.jpeg"
 
