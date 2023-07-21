@@ -28,7 +28,9 @@
         <a href="{{ .RelPermalink }}">{{ .Title }}</a>
       </h2>
 
-      <p class="article__excerpt">{{ if .Description }}{{ .Description }}{{ else }}{{ truncate 95 .Summary | safeHTML }}{{ end }}</p>
+      <p class="article__excerpt"></p>
+      <p>{{ if .Description }}{{ .Description }}{{ else }}{{ truncate 95 .Summary | safeHTML }}{{ end }}</p>
+
 
     </div>
   </div>
