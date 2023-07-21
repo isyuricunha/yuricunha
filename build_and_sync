@@ -1,0 +1,4 @@
+#!/bin/sh
+​
+hugo
+rsync -avz public/ prfocus.app:isyuricunha.com/
