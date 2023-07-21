@@ -28,7 +28,7 @@ social:
 #-------------------------------
 # Hero Settings
 hero:
-  hero__title: Hey, I’m Yuri
+  hero__title: Hey, I’m Yuri!
   hero__description: Designs, talks, and writes about web, ethics, privacy, and dev. I share design tutorials, free resources and inspiration.
   hero__image: "/images/01.jpg"
 
