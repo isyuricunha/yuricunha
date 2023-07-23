@@ -1,4 +1,12 @@
 /* Sections */
+.section {
+  margin-bottom: 120px;
+
+  @media only screen and (max-width: $mobile) {
+    margin-bottom: 80px;
+  }
+}
+
 .section__head {
   position: relative;
   display: flex;
@@ -28,10 +36,10 @@
 .section__title {
   padding-right: 20px;
   margin-bottom: 0;
-  font-size: 28px;
+  font-size: 32px;
 
   @media only screen and (max-width: $mobile) {
-    font-size: 24px;
+    font-size: 26px;
   }
 }
 
@@ -42,7 +50,6 @@
   text-decoration: underline;
   text-decoration-color: transparent;
   color: var(--link-color);
-  transition: text-decoration .35s;
 
   &:hover {
     text-decoration-color: var(--heading-font-color);

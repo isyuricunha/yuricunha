@@ -1,0 +1,80 @@
+#-------------------------------
+# Site Settings
+title: The Mouse Team
+logo: '/images/logo.png'
+author: The Mouse Team
+description: We are the Mouse Team.
+
+
+#-------------------------------
+# Menu Settings
+menu__settings:
+  menu__items:
+    - title: 'Home'
+      url: '/'
+    - title: 'About'
+      url: '/about/'
+    - title: 'Our Story'
+      url: '/blog/'
+    - title: 'Contact'
+      url: '/contact/'
+
+#-------------------------------
+# Hero Settings
+hero:
+  hero__title: Changing The World, One App At A Time.
+  hero__description: (Not just another software team). We are a team of Android developers. We create our own original apps, used and loved by thousands all around the world. We also serve our clients and bring their app ideas to life. We are the Mouse Team !!
+
+#-------------------------------
+# Portfolio Settings
+portfolio:
+  portfolio__title: Mouse Originals
+  portfolio__gallery:
+    - image: /images/eleftheria.jpg
+      title: Eleftheria App
+      description: Find out more <a href="/eleftheria/">here</a>
+
+    - image: /images/hara.jpg
+      title: Hara App
+      description: Find out more <a href="/hara/">here</a>
+
+    - image: /images/roadai.jpg
+      title: RoadAI
+      description: Find out more <a href="/roadai/">here</a>
+
+    - image: /images/upliftme.jpg
+      title: UpliftMe
+      description: Find out more <a href="/upliftme/">here</a>
+
+    - image: /images/hashme.jpg
+      title: HashMe
+      description: Find out more <a href="/hashme/">here</a>
+
+    - image: /images/bugdetme.jpg
+      title: BudgetMe
+      description: Find out more <a href="/budgetme/">here</a>
+
+    - image: /images/noteme.jpg
+      title: NoteMe
+      description: Find out more <a href="/noteme/">here</a>
+
+    - image: /images/schoolpool.jpg
+      title: SchoolPool
+      description: Find out more <a href="/schoolpool/">here</a>
+
+#-------------------------------
+# Footer Settings
+social:
+- {icon: "ion-logo-linkedin", color: "#3b5999", label: Linkedin, link: "https://www.linkedin.com/company/mouse-team/"}
+- {icon: "ion-logo-instagram", color: "#e4405f", label: Instagram, link: "https://www.instagram.com/the_mouse_team/"}
+- {icon: "ion-logo-twitter", color: "#55acee", label: Twitter, link: "https://twitter.com/the_mouse_team"}
+- {icon: "ion-logo-youtube", color: "#bd081c", label: Youtube, link: "https://www.youtube.com/channel/UCcQz6YBGaGmek2OUEsceNEg"}
+
+#-------------------------------
+# Comment Section (Disqus)
+
+disqus-identifier: anvodstudio-demo # add your shortname for Disqus Comment. For example anvodstudio-demo
+
+#-------------------------------
+# Google Analytics
+google-analytics: # Add your identifier. For example UA-99631805-1.

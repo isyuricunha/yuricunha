@@ -1,0 +1,11 @@
+---
+layout: post
+title:  Uplift
+date:   2018-02-01 09:00:00 +0000
+image:  '/images/uplift.jpg'
+tags:   [Uplift, UpliftMe, Mouse Originals]
+---
+
+In February 2018, Uplift was first launched on Google Play. The application suggests things to people to enchance and enrich their everyday life. It was later updated to UpliftMe part of SeriesMe with thousands of users around the globe. 
+
+***

@@ -2,26 +2,15 @@
 layout: page
 title: About
 permalink: /about/
-image: '/images/01-2.jpg'
+image: '/images/mouse-15.jpg'
 ---
 
-I am intereted in a variety of things including machine learning, MLOps, running.
+> We are the Mouse Team !!!
 
-<!-- <div class="gallery-box">
-  <div class="gallery">
-    <img src="/images/102.jpg">
-    <img src="/images/105.jpg">
-    <img src="/images/107.jpg">
-  </div>
-  <em>Gallery / <a href="https://unsplash.com/" target="_blank">Unsplash</a></em>
-</div> -->
+We are a team of Android developers (Google Certified Associate Android Developers).
 
-More to come ...
+We create our own original apps, used and loved by thousands all around the world. Over the years, we have designed 8 unique Mouse Original apps. Apps for Hackathons, to help users with everyday things and also fight global challenges like COVID-19 pandemic.
 
-### Machine Learning
+We also serve our clients and bring their app ideas to life. We have had clients in 3 different countries who all of them rated us with 5/5 stars.
 
-Most recent talk
-
-<p><iframe src="https://www.youtube.com/watch?v=hP7gm_f7oCk" width="640" height="360" frameborder="0" allowfullscreen></iframe></p>
-
-More to come ...
+***
