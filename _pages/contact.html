@@ -2,13 +2,13 @@
 layout: page
 title: Contact
 permalink: /contact/
-image: '/images/08.jpg'
+image: '/images/16.jpg'
 ---
 
 <div class="form-box">
   <div class="contact-head">
-    {% if site.data.settings.contact.description %}
-      <p class="page-description">{{site.data.settings.contact.description}}</p>
+    {% if site.contact.description %}
+      <p class="page-description">{{site.contact.description}}</p>
     {% endif %}
   </div>
   <form class="form" action="{% if site.data.settings.contact.email %}https://formspree.io/{{site.data.settings.contact.email}}{% else %}#{% endif %}" method="POST">
@@ -25,7 +25,7 @@ image: '/images/08.jpg'
       <textarea class="form__input" id="form-text" name="text" rows="10" placeholder="Message" required></textarea>
     </div>
     <div class="form__group">
-      <button class="button" type="submit">Send Message</button>
+      <button class="button button--primary" type="submit">Send Message</button>
     </div>
   </form>
 </div>

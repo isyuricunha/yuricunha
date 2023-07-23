@@ -41,13 +41,15 @@ permalink: /tags/
       <div class="container">
         <div class="row">
           <div class="col col-12">
-            
             <div class="tag__info">
-              <h2 class="tag__name" id="{{ this_word | cgi_escape }}">{{ this_word }}</h2>
-              <div class="tag__counter">
-                <span>{{ site.tags[this_word].size }}</span>
-                <small>{% if site.tags[page.tag].size < 2 %}Article{% else %}Articles{% endif %}</small>
+              <div class="tag__info-box">
+                <div class="tag__counter">
+                  <span>{{ site.tags[this_word].size }}</span>
+                  <small>{% if site.tags[page.tag].size < 2 %}Post{% else %}Posts{% endif %}</small>
+                </div>
+                <h2 class="tag__name" id="{{ this_word | cgi_escape }}">{{ this_word }}</h2>
               </div>
+              <a class="top__link" href="#top">Return to top</a>
             </div>
           </div>
         </div>
@@ -56,7 +58,7 @@ permalink: /tags/
       <div class="container">
         <div class="row">
           <div class="col col-12">
-            <div class="row animate">
+            <div class="row">
             {% for post in site.tags[this_word] %}
               {% if post.title != null %}
                 {% include article.html %}
@@ -74,5 +76,3 @@ permalink: /tags/
 
 </section>
 <!-- end tags -->
-
-{% include section-subscribe.html %}

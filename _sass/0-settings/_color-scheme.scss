@@ -1,11 +1,11 @@
 /* Color Scheme */
 
 :root {
-  --brand-color: #5e3aee;
+  --brand-color: #0073ec;
   --white: #fff;
   --light-gray: #f0f0f0;
-  --light-blue: #f8f6fb;
-  --blue-gray: #716f8f;
+  --light-blue: #f3f7ff;
+  --blue-gray: #716f8a;
   --gray: #9e9e9e;
   --dark: #0c101a;
   --dark-blue: #1e2740;
@@ -35,14 +35,14 @@
 }
 
 :root[dark] {
-  --brand-color: #5e3aee;
+  --brand-color: #0073ec;
   --white: #fff;
   --light-gray: #f0f0f0;
   --gray: #9e9e9e;
   --dark: #111016;
 
   --background-color: var(--dark);
-  --background-alt-color: #18181d;
+  --background-alt-color: #1a1a1f;
   
   --text-color: var(--gray);
   --text-alt-color: var(--gray);

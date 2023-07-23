@@ -14,21 +14,21 @@
 .form__input {
   width: 100%;
   padding: 20px;
-  font-size: 14px;
-  font-weight: 500;
+  font-size: 16px;
+  font-weight: 400;
   border: 2px solid var(--border-color);
   border-radius: 2px;
-  outline: none;
+  outline: 0;
   transition: .25s ease-in-out;
   resize: vertical;
   color: var(--heading-font-color);
-  background-color: var(--background-color);
+  background-color: var(--background-alt-color);
 
   &::placeholder {
-    color: var(--text-color);
+    color: var(--text-alt-color);
   }
 
   &:focus {
-    border-color: var(--heading-font-color);
+    border-color: var(--brand-color);
   }
 }

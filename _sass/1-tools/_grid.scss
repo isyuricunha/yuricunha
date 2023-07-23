@@ -29,6 +29,8 @@ $mq: ( $mobile:$columns, $tablet:$columns, $desktop:$columns );
 
   @media only screen and (max-width: $mobile) {
     max-width: 480px;
+    padding-left: calc(#{$container-offset} + 4px);
+    padding-right: calc(#{$container-offset} + 4px);
   }
 }
 

@@ -5,10 +5,14 @@
     display: flex;
     align-items: center;
     flex-wrap: wrap;
-    padding: 60px $base-spacing-unit;
+    padding: 44px $base-spacing-unit;
   
-    @media only screen and (max-width: $tablet) {
+    @media only screen and (max-width: $desktop) {
       padding: 40px $base-spacing-unit;
+    }
+
+    @media only screen and (max-width: $mobile) {
+      padding: 32px $base-spacing-unit;
     }
   }
 }
@@ -17,18 +21,14 @@
 .logo__link {
   padding: 4px 0;
   font-family: $heading-font-family;
-  font-size: 36px;
+  font-size: 28px;
   letter-spacing: -1px;
   line-height: 1;
   font-weight: 700;
-  transition: none;
+  transition: color .25s ease;
 
   &:hover {
-    color: var(--heading-font-color);
-  }
-
-  @media only screen and (max-width: $mobile) {
-    font-size: 32px;
+    color: var(--brand-color);
   }
 }
 
@@ -65,23 +65,18 @@
         display: block;
         margin: 0;
 
+        &.nav__item-icon {
+          margin-right: 0;
+        }
+
         .nav__link {
           display: inline-block;
-          padding: 20px 0;
-          font-size: 21px;
+          padding: 16px 0;
+          font-size: 18px;
+          transition: color .25s ease;
 
           &:hover {
-            &::after {
-              content: none;
-            }
-          }
-
-          &.nav__link--current {
             color: var(--brand-color);
-
-            &::after {
-              content: none;
-            }
           }
         }
       }
@@ -141,7 +136,7 @@
 
     .nav__title {
       display: inline-block;
-      margin-bottom: 20px;
+      margin-bottom: 12px;
       font-family: $heading-font-family;
       font-size: 36px;
       font-weight: 700;
@@ -164,8 +159,8 @@
     margin-right: 48px;
     margin-bottom: 0;
 
-    &:last-child {
-      margin-right: 0;
+    &.nav__item-icon {
+      margin-right: 12px;
     }
 
     .nav__link {
@@ -174,61 +169,41 @@
       font-size: 16px;
       line-height: 1;
       font-weight: 700;
-      transition: none;
-
-      &.nav__link--current {
-        &::after {
-          transform: scaleX(1);
-          transition: none;
-          background: var(--brand-color);
-        }
-      }
+      transition: color .25s ease;
 
       &:hover {
-        color: var(--link-color);
-
-        &::after {
-          transform: scaleX(1);
-        }
-      }
-
-      &::after {
-        content: "";
-        position: absolute;
-        left: 0;
-        bottom: -2px;
-        width: 100%;
-        height: 2px;
-        transform-origin: center;
-        transform: scaleX(0);
-        will-change: transform;
-        transition: all 0.25s;
-        background: var(--link-color);
+        color: var(--brand-color);
       }
     }
   }
 }
 
 .nav-button {
-  display: flex;
-  align-items: center;
   font-size: 21px;
   color: var(--link-color);
   cursor: pointer;
 
-  .nav__icon {
-    transition: $global-transition;
+  .icon__menu {
+    display: none;
+    margin-right: 12px;
   }
 
-  .nav__icon-menu {
-    display: none;
+  .icon__menu,
+  .icon__search {
+    transition: color .25s ease;
+
+    &:hover {
+      color: var(--brand-color);
+    }
   }
 
   @media only screen and (max-width: $desktop) {
+    display: flex;
+    align-items: center;
     margin-left: auto;
-    font-size: 26px;
+    font-size: 24px;
 
-    .nav__icon-menu {
+    .icon__menu {
       display: block;
     }
   }
@@ -254,8 +229,12 @@
 .toggle-moon {
   position: absolute;
   font-size: 20px;
+  transition: color .25s ease;
   color: var(--heading-font-color);
-  transition: $global-transition;
+
+  &:hover {
+    color: var(--brand-color);
+  }
 }
 
 .toggle-sun {

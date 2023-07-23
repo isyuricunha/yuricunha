@@ -1,6 +1,6 @@
 <!-- begin comments -->
 <div class="show-comments">
-  <button class="button disqus-button" id="show-comments-button" onclick="disqus();return false;">Comments</button>
+  <button class="button disqus-button" id="show-comments-button" onclick="disqus();return false;">Show Comments</button>
 </div>
 
 <div id="disqus_thread" class="post__comments">
@@ -9,7 +9,7 @@
 
 <script>
   var disqus_loaded = false;
-  var disqus_shortname = '{{ site.data.settings.disqus-identifier }}';
+  var disqus_shortname = '{{ site.disqus-identifier }}';
   var disqus_container = document.getElementById("disqus_thread");
   function disqus() {
     if (!disqus_loaded) {

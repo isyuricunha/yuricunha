@@ -1,9 +1,9 @@
 /* Pagination */
 .pagination {
-  margin: 40px 0 160px;
+  margin-bottom: 80px;
 
   @media only screen and (max-width: $mobile) {
-    margin: 40px 0 80px;
+    margin-bottom: 60px;
   }
 }
 
@@ -18,25 +18,25 @@
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  font-size: 15px;
+  font-size: 18px;
   font-weight: 700;
   line-height: 1;
-  text-transform: uppercase;
   color: var(--text-color);
 
   @media only screen and (max-width: $mobile) {
     align-items: stretch;
-    font-size: 14px;
+    font-size: 16px;
   }
 }
 
 .pagination__item {
   display: flex;
   justify-content: center;
+  align-items: center;
   width: 100%;
   padding: 24px 20px;
   text-align: center;
-  border-radius: 16px;
+  border-radius: 8px;
   background: var(--background-alt-color);
 
   @media only screen and (max-width: $mobile) {
@@ -48,15 +48,17 @@
 
 .pagination__count {
   margin: 0 32px;
-  font-size: 14px;
-  color: var(--text-alt-color);
-
-  @media only screen and (max-width: $desktop) {
-    margin: 0 16px;
-  }
+  font-size: 16px;
+  color: var(--link-color);
 
   @media only screen and (max-width: $tablet) {
     margin: 0 12px;
+  }
+
+  @media only screen and (max-width: $mobile) {
+    margin: 0 8px;
+    font-size: 14px;
+    line-height: 1.2;
   }
 }
 
@@ -67,13 +69,13 @@
   }
 
   i {
-    font-size: 14px;
+    font-size: 15px;
     transition: transform .15s ease;
     will-change: transform;
   }
 
   &.disabled {
-    opacity: 0.6;
+    opacity: 0.64;
     cursor: not-allowed;
     color: inherit;
     
@@ -81,6 +83,17 @@
       i {
         transform: none;
       }
+    }
+  }
+}
+
+.dark-mode {
+
+  .pagination__next,
+  .pagination__prev {
+
+    &.disabled {
+      opacity: 0.78;
     }
   }
 }

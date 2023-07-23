@@ -2,16 +2,20 @@ document.addEventListener("DOMContentLoaded", function() {
   'use strict';
 
   var html = document.querySelector('html'),
-    menuOpenIcon = document.querySelector(".nav__icon-menu"),
+    menuOpenIcon = document.querySelector(".icon__menu"),
     menuCloseIcon = document.querySelector(".nav__icon-close"),
     menuList = document.querySelector(".main-nav"),
+    searchOpenIcon = document.querySelector(".icon__search"),
+    searchCloseIcon = document.querySelector(".search__close"),
+    searchInput = document.querySelector(".search__text"),
+    search = document.querySelector(".search"),
+    searchBox = document.querySelector(".search__box"),
     toggleTheme = document.querySelector(".toggle-theme"),
-    portfolioViewButton = document.querySelector('.portfolio__toggle'),
     btnScrollToTop = document.querySelector(".top");
 
 
   /* =======================================================
-  // Menu + Theme Switcher + Toggle list view
+  // Menu + Search + Theme Switcher
   ======================================================= */
   menuOpenIcon.addEventListener("click", () => {
     menuOpen();
@@ -21,23 +25,44 @@ document.addEventListener("DOMContentLoaded", function() {
     menuClose();
   });
 
-  toggleTheme.addEventListener("click", () => {
-    darkMode();
-  });
-
-  if (portfolioViewButton) {
-    portfolioViewButton.addEventListener("click", () => {
-      viewToggle();
-    });
-  }
-
   function menuOpen() {
     menuList.classList.add("is-open");
   }
-
+  
   function menuClose() {
     menuList.classList.remove("is-open");
   }
+
+  searchOpenIcon.addEventListener("click", () => {
+    searchOpen();
+  });
+
+  searchCloseIcon.addEventListener("click", () => {
+    searchClose();
+  });
+
+  function searchOpen() {
+    search.classList.add("is-visible");
+    setTimeout(function () {
+      searchInput.focus();
+    }, 250);
+  }
+
+  function searchClose() {
+    search.classList.remove("is-visible");
+  }
+
+  searchBox.addEventListener("keydown", function(event) {
+    if (event.target == this || event.keyCode == 27) {
+      search.classList.remove('is-visible');
+    }
+  });
+
+  if (toggleTheme) {
+    toggleTheme.addEventListener("click", () => {
+      darkMode();
+    });
+  };
 
 
   // Theme Switcher
@@ -54,43 +79,22 @@ document.addEventListener("DOMContentLoaded", function() {
   }
 
 
-  // Toggle list view
-  function viewToggle() {
-    if (html.classList.contains('view-list')) {
-      html.classList.remove('view-list');
-      localStorage.removeItem("classView");
-      document.documentElement.removeAttribute("list");
-    } else {
-      html.classList.add('view-list');
-      localStorage.setItem("classView", "list");
-      document.documentElement.setAttribute("list", "");
-    }
-  }
+  // =====================
+  // Simple Jekyll Search
+  // =====================
+  SimpleJekyllSearch({
+    searchInput: document.getElementById("js-search-input"),
+    resultsContainer: document.getElementById("js-results-container"),
+    json: "/search.json",
+    searchResultTemplate: '{article}',
+    noResultsText: '<h3 class="no-results">No results found</h3>'
+  });
 
 
   /* =======================
   // Responsive Videos
   ======================= */
   reframe(".post__content iframe:not(.reframe-off), .page__content iframe:not(.reframe-off)");
-
-
-  /* =======================
-  // Zoom Image
-  ======================= */
-  const lightense = document.querySelector(".page__content img, .post__content img"),
-  imageLink = document.querySelectorAll(".page__content a img, .post__content a img");
-
-  if (imageLink) {
-    for (var i = 0; i < imageLink.length; i++) imageLink[i].parentNode.classList.add("image-link");
-    for (var i = 0; i < imageLink.length; i++) imageLink[i].classList.add("no-lightense");
-  }
-
-  if (lightense) {
-    Lightense(".page__content img:not(.no-lightense), .post__content img:not(.no-lightense)", {
-    padding: 60,
-    offset: 30
-    });
-  }
 
 
   /* =======================
@@ -101,21 +105,30 @@ document.addEventListener("DOMContentLoaded", function() {
   })
 
 
-  /* ==========================
-  // Lightbox Gallery
-  ========================== */
-  const lightbox = GLightbox({
-    touchNavigation: true,
-    loop: true,
-    moreLength: 0,
-    autoplayVideos: true
-  });
+  /* =======================
+  // Zoom Image
+  ======================= */
+  const lightense = document.querySelector(".page__content img, .post__content img, .gallery__image img"),
+  imageLink = document.querySelectorAll(".page__content a img, .post__content a img, .gallery__image a img");
+
+  if (imageLink) {
+    for (var i = 0; i < imageLink.length; i++) imageLink[i].parentNode.classList.add("image-link");
+    for (var i = 0; i < imageLink.length; i++) imageLink[i].classList.add("no-lightense");
+  }
+
+  if (lightense) {
+    Lightense(".page__content img:not(.no-lightense), .post__content img:not(.no-lightense), .gallery__image img:not(.no-lightense)", {
+    padding: 60,
+    offset: 30
+    });
+  }
+
 
 
   /* =================================
   // Smooth scroll to the tags page
   ================================= */
-  document.querySelectorAll(".tag__link").forEach(anchor => {
+  document.querySelectorAll(".tag__link, .top__link").forEach(anchor => {
     anchor.addEventListener("click", function (e) {
       e.preventDefault();
 
@@ -129,10 +142,6 @@ document.addEventListener("DOMContentLoaded", function() {
   /* =======================
   // Scroll Top Button
   ======================= */
-  window.addEventListener("scroll", function () {
-    window.scrollY > window.innerHeight ? btnScrollToTop.classList.add("is-active") : btnScrollToTop.classList.remove("is-active");
-  });
-
   btnScrollToTop.addEventListener("click", function () {
     if (window.scrollY != 0) {
       window.scrollTo({

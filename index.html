@@ -3,10 +3,18 @@ layout: default
 image: '/images/01.jpg'
 ---
 
-{% include section-hero.html %}
+{% include hero.html %}
 
-{% include section-portfolio.html %}
+<div class="container">
+  <div class="row animate">
+    {% if site.posts.size > 0 %}
+      {% for post in paginator.posts %}
+        {% include article.html %}
+      {% endfor %}
+    {% endif %}
+  </div>
+</div>
 
-{% include section-blog.html %}
+{% include pagination.html %}
 
-{% include section-subscribe.html %}
+{% include section-tags.html %}

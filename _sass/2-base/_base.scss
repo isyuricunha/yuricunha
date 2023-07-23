@@ -6,6 +6,7 @@ body {
   font-family: $base-font-family;
   font-size: $base-font-size;
   line-height: $base-line-height;
+  overflow-x: hidden;
   color: var(--text-color);
   background-color: var(--background-color);
   -webkit-font-smoothing: antialiased;
@@ -64,8 +65,8 @@ blockquote {
   padding-left: 26px;
   font-size: 24px;
   line-height: 1.7;
-  font-weight: 500;
-  border-left: 4px solid var(--heading-font-color);
+  font-weight: 900;
+  border-left: 4px solid var(--brand-color);
   color: var(--heading-font-color);
 
   p {
@@ -195,11 +196,11 @@ table td {
 
 .button {
   display: inline-block;
-  padding: 20px 40px;
+  padding: 20px 26px;
   font-size: 16px;
   font-weight: 700;
   text-decoration: none;
-  border-radius: 8px;
+  border-radius: 2px;
   border: none;
   outline: none;
   cursor: pointer;
@@ -215,6 +216,11 @@ table td {
       background: var(--button-background-hover);
     }
   }
+
+  &--big {
+    display: block;
+    width: 100%;
+  }
 }
 
 .lazy {
@@ -227,5 +233,5 @@ table td {
 }
 
 .lightense-backdrop {
-  background-color: var(--background-alt-color) !important;
+  background-color: var(--background-color) !important;
 }
