@@ -5,7 +5,7 @@ baseURL = ''
 languageCode = 'en-us'
 title = 'Yuri Cunha'
 theme = 'menca'
-googleAnalytics = "G-SKVX2E8KMF" # Add your identifier. For example UA-99631805-1.
+googleAnalytics = "UA-279033235-1" # Add your identifier. For example UA-99631805-1.
 paginate = 9
 
 
